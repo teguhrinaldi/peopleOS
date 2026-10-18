@@ -1,0 +1,166 @@
+{
+  "authEnterEmail": "Enter your email address",
+  "authEnterValidEmail": "Enter a valid email address",
+  "authEnterServer": "Enter the server address",
+  "authEnterValidServer": "Enter a valid server address",
+  "authBadCredentials": "The email or password is incorrect.",
+  "authAccountDisabled": "Your account has been disabled. Please contact HR.",
+  "authNoEmployeeProfile": "No employee profile is linked to this account.",
+  "authSessionExpired": "Your session has expired. Please sign in again.",
+  "authErrorRetryIn": "{message} Try again in {seconds}s.",
+  "@authErrorRetryIn": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      },
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "authWelcomeBack": "Welcome back",
+  "authSignInSubtitle": "Sign in to your account",
+  "authServerAddress": "Server address",
+  "authServerHelper": "The address of your PeopleOS server. Android emulator: http://10.0.2.2:8000",
+  "authEmailAddress": "Email address",
+  "authPassword": "Password",
+  "authPasswordHint": "Enter your password",
+  "authPasswordRequired": "Password is required",
+  "authShowPassword": "Show password",
+  "authHidePassword": "Hide password",
+  "authSignIn": "Sign in",
+  "authForgotPassword": "Forgot password?",
+  "authDemoAccount": "Demo Account",
+  "authDemoNote": "Demo mode: sample data on this device, no server needed.",
+  "authForgotTitle": "Forgot your password?",
+  "authForgotBody": "Password resets are handled by your HR administrator. Ask them to reset your password, then sign in with the new one.",
+  "authGotIt": "Got it",
+  "authRememberMe": "Remember me",
+  "authChange": "Change",
+  "authTagline": "Manage people. Simplify work.",
+  "authSplashSemantics": "PeopleOS. Manage people. Simplify work.",
+  "authVersion": "v{version}",
+  "@authVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "profilePersonalInfo": "Personal Information",
+  "profileEmployment": "Employment",
+  "profileWorkInfo": "Work Information",
+  "profileDocuments": "Documents",
+  "profileNotifications": "Notifications",
+  "profileSettings": "Settings",
+  "profileNewCount": "{count} new",
+  "@profileNewCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "profileLogout": "Logout",
+  "profileSignOutTitle": "Sign out?",
+  "profileSignOutAction": "Sign out",
+  "profileSignOutPending": "You have {count, plural, =1{1 attendance action} other{{count} attendance actions}} not synced yet. They stay safely on this device and sync after you sign in again.",
+  "@profileSignOutPending": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "profileSignOutMessage": "You will need to sign in again to use PeopleOS.",
+  "profileStatusActive": "Active",
+  "profileStatusPending": "Pending",
+  "profileStatusTerminated": "Terminated",
+  "profileStatusInactive": "Inactive",
+  "profileFullName": "Full name",
+  "profileGender": "Gender",
+  "profileDateOfBirth": "Date of birth",
+  "profilePhone": "Phone",
+  "profileEmail": "Email",
+  "profileAddress": "Address",
+  "profileEmployeeNumber": "Employee number",
+  "profileDepartment": "Department",
+  "profilePosition": "Position",
+  "profileManager": "Manager",
+  "profileJoinDate": "Join date",
+  "profileEmploymentType": "Employment type",
+  "profileStatus": "Status",
+  "profileBranch": "Branch",
+  "profileWorkLocation": "Work location",
+  "profileShift": "Shift",
+  "profileShiftHours": "Shift hours",
+  "profileCompany": "Company",
+  "profileTimezone": "Timezone",
+  "profileGenderMale": "Male",
+  "profileGenderFemale": "Female",
+  "profileTypePermanent": "Permanent",
+  "profileTypeContract": "Contract",
+  "profileTypeProbation": "Probation",
+  "profileTypeInternship": "Internship",
+  "profileTypeFreelance": "Freelance",
+  "profileTypePartTime": "Part-time",
+  "settingsTitle": "Settings",
+  "settingsAppearance": "Appearance",
+  "settingsThemeLight": "Light",
+  "settingsThemeDark": "Dark",
+  "settingsThemeSystem": "System",
+  "settingsGeneral": "General",
+  "settingsSyncStatus": "Sync status",
+  "settingsSyncSubtitle": "Attendance saved on this device",
+  "settingsServerAddress": "Server address",
+  "settingsNotSet": "Not set",
+  "settingsAddress": "Address",
+  "settingsServerHelper": "Android emulator: http://10.0.2.2:8000  ·  iOS simulator: http://127.0.0.1:8000",
+  "settingsServerSaved": "Server address saved",
+  "settingsDemoControls": "Demo controls",
+  "settingsAbout": "About",
+  "settingsAboutApp": "App",
+  "settingsAboutVersion": "Version",
+  "settingsAboutMode": "Mode",
+  "settingsAboutCompany": "Company",
+  "settingsAboutTimezone": "Timezone",
+  "settingsAppName": "PeopleOS Employee",
+  "settingsModeServer": "Connected to server",
+  "settingsModeDemo": "Demo (offline sample data)",
+  "settingsScenario": "Scenario",
+  "settingsDemoScenario": "Demo scenario",
+  "settingsScenarioNormal": "Normal working day",
+  "settingsScenarioSelfie": "Selfie required (strict policy)",
+  "settingsScenarioRestDay": "Not a working day",
+  "settingsScenarioNoSchedule": "No schedule assigned",
+  "settingsScenarioOnLeave": "On approved leave today",
+  "settingsScenarioTerminated": "Terminated employee (blocked)",
+  "settingsSimOutside": "Simulate outside work area",
+  "settingsSimOutsideSub": "Fake GPS ~330 m from the office",
+  "settingsSimOffline": "Simulate offline",
+  "settingsSimOfflineSub": "Try saving attendance without a connection",
+  "settingsResetDemo": "Reset demo data",
+  "settingsResetDemoSub": "Clears today''s attendance and requests",
+  "settingsResetDemoTitle": "Reset demo data?",
+  "settingsResetDemoMessage": "Attendance and requests you created in the demo are removed.",
+  "settingsReset": "Reset",
+  "settingsDemoDataReset": "Demo data reset",
+  "settingsDemoModeNote": "Demo mode runs entirely on this device with sample data.",
+  "appComingSoonTitle": "{feature} is coming soon",
+  "@appComingSoonTitle": {
+    "placeholders": {
+      "feature": {
+        "type": "String"
+      }
+    }
+  },
+  "appComingSoonGeneric": "Coming soon",
+  "appComingSoonDocuments": "Secure employee documents and expiry alerts arrive in an upcoming release.",
+  "appComingSoonMore": "More employee services are on the roadmap. Attendance, requests and your profile are ready today.",
+  "appComingSoonDefault": "This feature arrives in an upcoming release.",
+  "appFeatureDocuments": "Documents",
+  "appFeatureMore": "More",
+  "authServerHint": "https://hr.yourcompany.com",
+  "authEmailHint": "you@company.com",
+  "settingsServerHint": "https://hr.yourcompany.com"
+}

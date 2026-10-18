@@ -1,0 +1,1 @@
+@include('errors.minimal', ['code' => '429', 'icon' => 'timer', 'heading' => 'Too many requests', 'message' => 'You are doing that a little too fast. Wait a moment and try again.', 'tone' => 'bg-warning-soft text-warning-ink'])

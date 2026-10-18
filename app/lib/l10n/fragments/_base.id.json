@@ -1,0 +1,22 @@
+{
+  "appName": "PeopleOS",
+  "languageTitle": "Bahasa",
+  "languageEnglish": "English",
+  "languageIndonesian": "Bahasa Indonesia",
+  "languageSystem": "Bawaan perangkat",
+  "languageSavedLocalOnly": "Bahasa diubah di perangkat ini, tetapi belum bisa disimpan ke akun Anda.",
+  "staleBanner": "Menampilkan data tersimpan dari {age}. Hubungkan kembali lalu tarik untuk menyegarkan.",
+  "ageJustNow": "baru saja",
+  "ageMinutes": "{count, plural, other{{count} menit lalu}}",
+  "ageHours": "{count, plural, other{{count} jam lalu}}",
+  "ageDays": "{count, plural, other{{count} hari lalu}}",
+  "durationHm": "{h}j {m}m",
+  "durationH": "{h}j",
+  "durationM": "{m}m",
+  "greetingMorning": "Selamat pagi",
+  "greetingAfternoon": "Selamat siang",
+  "greetingEvening": "Selamat sore",
+  "greetingNight": "Selamat malam",
+  "daysOne": "{n} hari",
+  "daysMany": "{n} hari"
+}

@@ -1,0 +1,1 @@
+@include('errors.minimal', ['code' => '403', 'icon' => 'lock', 'heading' => 'You do not have access to this page', 'message' => 'Your role does not include this area. If you think that is a mistake, ask an administrator to review your permissions.', 'tone' => 'bg-warning-soft text-warning-ink'])

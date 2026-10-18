@@ -1,0 +1,19 @@
+{
+  "syncSyncing": "Menyinkronkan...",
+  "syncFailedCount": "{count} sinkronisasi gagal",
+  "syncPendingCount": "{count} menunggu sinkronisasi",
+  "syncAllSynced": "Semua tersinkron",
+  "syncTitle": "Status sinkronisasi",
+  "syncNow": "Sinkronkan sekarang",
+  "syncEverythingSynced": "Semua sudah tersinkron",
+  "syncEverythingSyncedMsg": "Absensi yang Anda catat saat offline muncul di sini sampai diterima server.",
+  "syncOnline": "Online",
+  "syncOffline": "Offline",
+  "syncPendingFailedSummary": "{pending} menunggu · {failed} gagal",
+  "syncStateSaved": "Tersimpan",
+  "syncStateSynced": "Tersinkron",
+  "syncAttempts": "{count} percobaan",
+  "syncDiscard": "Buang",
+  "syncDiscardTitle": "Buang aksi ini?",
+  "syncDiscardMessage": "Aksi ini tidak akan dikirim ke server. Gunakan pengajuan koreksi jika absensi Anda perlu diperbaiki."
+}

@@ -1,0 +1,121 @@
+{
+  "documentsTitle": "Documents",
+  "documentsDetailTitle": "Document",
+  "documentsSelectPrompt": "Select a document",
+  "documentsEmptyTitle": "No documents",
+  "documentsEmptyFiltered": "Nothing matches these filters.",
+  "documentsEmptyDefault": "Documents shared with you by HR appear here.",
+  "documentsFilterAll": "All",
+  "documentsFilterSemantics": "Filter: {label}",
+  "@documentsFilterSemantics": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "documentsStatusActive": "Active",
+  "documentsStatusExpiring": "Expiring",
+  "documentsStatusExpired": "Expired",
+  "documentsStatusArchived": "Archived",
+  "documentsTypeCompany": "{type} · Company",
+  "@documentsTypeCompany": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "documentsExpiredAgo": "{n, plural, =1{Expired 1 day ago} other{Expired {n} days ago}}",
+  "@documentsExpiredAgo": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "documentsExpiresToday": "Expires today",
+  "documentsExpiresTomorrow": "Expires tomorrow",
+  "documentsExpiresIn": "Expires in {n} days",
+  "@documentsExpiresIn": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "documentsOwner": "Owner",
+  "documentsOwnerCompany": "Company document",
+  "documentsOwnerYou": "You",
+  "documentsExpiryDate": "Expiry date",
+  "documentsNoExpiry": "No expiry",
+  "documentsFile": "File",
+  "documentsFileValue": "{name} · {size}",
+  "@documentsFileValue": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "documentsUploaded": "Uploaded",
+  "documentsDownloadOpen": "Download / open",
+  "documentsFileSizeBytes": "{n} B",
+  "@documentsFileSizeBytes": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "documentsFileSizeKb": "{n} KB",
+  "@documentsFileSizeKb": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "documentsFileSizeMb": "{n} MB",
+  "@documentsFileSizeMb": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "documentsSemantics": "{title}, {type}, {status}",
+  "@documentsSemantics": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "type": {
+        "type": "String"
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "documentsSemanticsExpiry": "{title}, {type}, {status}, {expiry}",
+  "@documentsSemanticsExpiry": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "type": {
+        "type": "String"
+      },
+      "status": {
+        "type": "String"
+      },
+      "expiry": {
+        "type": "String"
+      }
+    }
+  }
+}

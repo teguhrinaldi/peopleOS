@@ -1,0 +1,130 @@
+{
+  "commonCancel": "Cancel",
+  "commonOk": "OK",
+  "commonTryAgain": "Try again",
+  "commonBack": "Back",
+  "commonDone": "Done",
+  "commonSave": "Save",
+  "commonSubmit": "Submit",
+  "commonClose": "Close",
+  "commonRetry": "Retry",
+  "commonSoon": "Soon",
+  "commonYes": "Yes",
+  "commonNo": "No",
+  "commonClear": "Clear {label}",
+  "@commonClear": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "commonSelect": "Select",
+  "commonSelectItem": "Select an item",
+  "commonLoading": "Loading",
+  "commonProfilePhotoOf": "Profile photo of {name}",
+  "@commonProfilePhotoOf": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "commonSyncStatus": "Sync status: {label}",
+  "@commonSyncStatus": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "commonOfflineTitle": "You''re offline.",
+  "commonOfflineSaved": "Attendance is saved on this device and syncs automatically.",
+  "commonOfflineWaiting": "{count, plural, =1{1 action waiting to sync.} other{{count} actions waiting to sync.}}",
+  "@commonOfflineWaiting": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "navHome": "Home",
+  "navAttendance": "Attendance",
+  "navRequests": "Requests",
+  "navPayslip": "Payslip",
+  "navProfile": "Profile",
+  "badgeActive": "Active",
+  "badgePending": "Pending",
+  "badgeApproved": "Approved",
+  "badgeRejected": "Rejected",
+  "badgeExpired": "Expired",
+  "badgeLate": "Late",
+  "badgeOnTime": "On time",
+  "badgeWorking": "WORKING",
+  "badgeOffline": "Offline",
+  "errOfflineTitle": "You''re offline",
+  "errTimeoutTitle": "The server is slow to respond",
+  "errForbiddenTitle": "Access denied",
+  "errNotFoundTitle": "Not found",
+  "errServerTitle": "Server problem",
+  "errGenericTitle": "Something went wrong",
+  "errPleaseTryAgain": "Please try again.",
+  "errNoConnection": "No internet connection. Check your network and try again.",
+  "errTimeout": "The server took too long to respond.",
+  "errServer": "Something went wrong on the server. Please try again.",
+  "errForbidden": "You don''t have permission to do this.",
+  "errNotFound": "We couldn''t find what you were looking for.",
+  "errUnauthorized": "Your session has expired. Please sign in again.",
+  "errRateLimited": "Too many requests. Please try again in a moment.",
+  "errUnknown": "Unexpected error. Please try again.",
+  "errAttOutsideGeofenceDistance": "You are {distance} m from the work site. You must be within {radius} m to record attendance.",
+  "@errAttOutsideGeofenceDistance": {
+    "placeholders": {
+      "distance": {
+        "type": "int"
+      },
+      "radius": {
+        "type": "int"
+      }
+    }
+  },
+  "errAttOutsideGeofence": "You are outside the allowed work area.",
+  "errAttGpsRequired": "Location is required to record attendance.",
+  "errAttGpsAccuracyTooLow": "GPS accuracy is too low. Move to an open area and try again.",
+  "errAttMockLocation": "A mock location was detected. Turn it off and try again.",
+  "errAttLocationStale": "The location fix is too old. Please try again.",
+  "errAttSelfieRequired": "A selfie is required for this check.",
+  "errAttAlreadyCheckedIn": "You are already checked in.",
+  "errAttAlreadyCheckedOut": "You have already checked out for this day.",
+  "errAttNotCheckedIn": "You need to check in before checking out.",
+  "errAttCheckOutTooLate": "The check-out window for this shift has closed.",
+  "errAttOnLeave": "You are on approved leave today, so check-in is not needed.",
+  "errAttNoSchedule": "You have no schedule for today.",
+  "errAttNotWorkingDay": "Today is not a working day for you.",
+  "errAttOfflineEventTooOld": "This action was saved offline for too long to be accepted. Ask for an attendance correction instead.",
+  "errAttInvalidEventTime": "The time recorded on this device was not accepted. Ask for an attendance correction instead.",
+  "errAttEmployeeTerminated": "Your employment has ended. Attendance is disabled.",
+  "errAttEmployeeNotActive": "Your employee profile is not active yet.",
+  "errAttAccountDisabled": "Your account has been disabled. Contact HR.",
+  "errAttIdempotencyConflict": "This action conflicts with an earlier one. Please refresh.",
+  "errFileMissing": "The file is missing on the server. Please tell HR.",
+  "errFileUnavailable": "This file is no longer available.",
+  "errFileForbidden": "You are not allowed to open this file.",
+  "errFileOpenFailed": "Could not open the file on this device.",
+  "commonSharedFile": "Opened share sheet for {name}",
+  "@commonSharedFile": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "commonDownloadedFile": "Downloaded {name}",
+  "@commonDownloadedFile": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  }
+}

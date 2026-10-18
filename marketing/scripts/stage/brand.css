@@ -1,0 +1,7 @@
+@font-face { font-family: 'Inter'; src: url('inter.woff2') format('woff2'); font-weight: 100 900; }
+:root { --navy:#0F172A; --navy2:#172554; --blue:#2563EB; --sky:#38BDF8; --ink:#0F172A; --mute:#64748B; --bg:#F5F8FD; }
+* { box-sizing: border-box; margin: 0; }
+html, body { font-family: 'Inter', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+.logo { display:inline-flex; align-items:center; gap:14px; }
+.logo svg { height: 1em; width: auto; }
+.logo b { font-weight: 800; letter-spacing: -.02em; }

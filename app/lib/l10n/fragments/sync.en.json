@@ -1,0 +1,50 @@
+{
+  "syncSyncing": "Syncing...",
+  "syncFailedCount": "{count} sync failed",
+  "@syncFailedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "syncPendingCount": "{count} pending sync",
+  "@syncPendingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "syncAllSynced": "All synced",
+  "syncTitle": "Sync status",
+  "syncNow": "Sync now",
+  "syncEverythingSynced": "Everything is synced",
+  "syncEverythingSyncedMsg": "Attendance you record while offline appears here until it reaches the server.",
+  "syncOnline": "Online",
+  "syncOffline": "Offline",
+  "syncPendingFailedSummary": "{pending} pending · {failed} failed",
+  "@syncPendingFailedSummary": {
+    "placeholders": {
+      "pending": {
+        "type": "int"
+      },
+      "failed": {
+        "type": "int"
+      }
+    }
+  },
+  "syncStateSaved": "Saved",
+  "syncStateSynced": "Synced",
+  "syncAttempts": "{count, plural, =1{1 attempt} other{{count} attempts}}",
+  "@syncAttempts": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "syncDiscard": "Discard",
+  "syncDiscardTitle": "Discard this action?",
+  "syncDiscardMessage": "It will not be sent to the server. Use a correction request if your attendance needs fixing."
+}

@@ -1,0 +1,109 @@
+{
+  "requestsTitle": "Requests",
+  "requestsTabLeave": "Leave",
+  "requestsTabCorrections": "Corrections",
+  "requestsTabOvertime": "Overtime",
+  "requestsSelectPrompt": "Select a request",
+  "requestsStatusPending": "Pending",
+  "requestsStatusApproved": "Approved",
+  "requestsStatusRejected": "Rejected",
+  "requestsStatusCancelled": "Cancelled",
+  "requestsNewCorrection": "Request correction",
+  "requestsCorrectionsEmptyTitle": "No correction requests",
+  "requestsCorrectionsEmptyMessage": "Forgot to check out or in? Request a correction and your manager will review it.",
+  "requestsCorrectionIn": "In {time}",
+  "@requestsCorrectionIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "requestsCorrectionOut": "Out {time}",
+  "@requestsCorrectionOut": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "requestsNewOvertime": "Request overtime",
+  "requestsOvertimeEmptyTitle": "No overtime requests",
+  "requestsOvertimeEmptyMessage": "Planning to work extra hours? Submit a request first.",
+  "requestsDetailWorkDate": "Work date",
+  "requestsDetailCheckIn": "Check in",
+  "requestsDetailCheckOut": "Check out",
+  "requestsDetailSubmitted": "Submitted",
+  "requestsDetailTime": "Time",
+  "requestsDetailRequested": "Requested",
+  "requestsDetailApproved": "Approved",
+  "requestsCorrectionDetailTitle": "Correction request",
+  "requestsOvertimeDetailTitle": "Overtime request",
+  "requestsCorrectionCancelTitle": "Cancel this request?",
+  "requestsOvertimeCancelTitle": "Cancel this overtime request?",
+  "requestsCancelMessage": "This cannot be undone. You can submit a new request later.",
+  "requestsCancelRequest": "Cancel request",
+  "requestsKeepIt": "Keep it",
+  "requestsCancelledSnack": "Request cancelled",
+  "requestsReason": "Reason",
+  "requestsReviewerNote": "Reviewer note",
+  "requestsErrCorrectionAlreadyPending": "There is already a pending correction for this date.",
+  "requestsErrCorrectionWindowExpired": "Corrections can only be requested for the last 30 days.",
+  "requestsErrInvalidWorkDate": "That work date is not valid.",
+  "requestsErrCheckInRequired": "A check-in time is required for this request.",
+  "requestsErrOvertimeTooLong": "That overtime is longer than the allowed limit.",
+  "requestsErrOvertimeOverlap": "This overlaps another overtime request.",
+  "requestsErrNotPending": "This request is no longer pending, so it cannot be changed.",
+  "requestsErrInvalidEventTime": "The times you entered are not possible.",
+  "requestsCorrectionDateHelp": "Work date (last 30 days)",
+  "requestsValChooseWorkDate": "Choose the work date.",
+  "requestsValTimes": "Add a check-in time, a check-out time, or both.",
+  "requestsValReasonWhatHappened": "Explain what happened (at least 5 characters).",
+  "requestsCorrectionSubmitted": "Correction request submitted",
+  "requestsSubmitRequest": "Submit request",
+  "requestsCorrectionIntro": "Forgot to check in or out? Tell us what the times should be. Your manager reviews the request before your record changes.",
+  "requestsChooseDate": "Choose a date",
+  "requestsCheckInTime": "Check-in time",
+  "requestsCheckOutTime": "Check-out time",
+  "requestsOptional": "Optional",
+  "requestsCorrectionReasonHint": "e.g. I forgot to check out after the meeting",
+  "requestsOvertimeDateHelp": "Overtime date",
+  "requestsValChooseDate": "Choose the date.",
+  "requestsValChooseStart": "Choose the start time.",
+  "requestsValChooseEnd": "Choose the end time.",
+  "requestsValEndAfterStart": "The end time must be after the start time.",
+  "requestsValReasonWhy": "Explain why (at least 5 characters).",
+  "requestsOvertimeSubmitted": "Overtime request submitted",
+  "requestsOvertimeIntro": "Request approval before you work extra hours. Approved overtime is recorded for your manager and HR.",
+  "requestsDate": "Date",
+  "requestsStartTime": "Start time",
+  "requestsEndTime": "End time",
+  "requestsStart": "Start",
+  "requestsEnd": "End",
+  "requestsOvertimeReasonHint": "What will you work on?",
+  "requestsTimeRange": "{start} - {end}",
+  "@requestsTimeRange": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "requestsOvertimeSubtitle": "{start} - {end} · {duration}",
+  "@requestsOvertimeSubtitle": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      }
+    }
+  }
+}

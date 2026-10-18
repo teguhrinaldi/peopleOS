@@ -1,0 +1,144 @@
+{
+  "checkTitleCheckIn": "Check-in",
+  "checkTitleCheckOut": "Check-out",
+  "checkConfirmLocation": "Confirm your location",
+  "checkConfirmCheckOutTitle": "Confirm check-out",
+  "checkSelfiePreviewTitle": "Selfie preview",
+  "checkGettingLocation": "Getting your location...",
+  "checkGps": "GPS",
+  "checkWaiting": "Waiting",
+  "checkLocationCaptured": "Location captured",
+  "checkGeofence": "Geofence",
+  "checkWithinArea": "Within area",
+  "checkOutsideArea": "Outside area",
+  "checkCheckedByServer": "Checked by server",
+  "checkSelfie": "Selfie",
+  "checkDone": "Done",
+  "checkOfflineNote": "You''re offline. This check will be saved on your device and sent when you''re back online.",
+  "checkBackToHome": "Back to Home",
+  "checkConfirmCheckIn": "Confirm Check In",
+  "checkConfirmCheckOut": "Confirm Check Out",
+  "checkTakeSelfieToContinue": "Take a selfie to continue.",
+  "checkRejectedLocation": "Couldn''t record your location",
+  "checkRejectedAttendance": "Couldn''t record your attendance",
+  "checkAreaInside": "You are within work area",
+  "checkAreaOutside": "You appear to be outside the work area",
+  "checkNoSite": "No work site is configured for today.",
+  "checkDistanceFromSite": "{distance} from {site}",
+  "@checkDistanceFromSite": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      },
+      "site": {
+        "type": "String"
+      }
+    }
+  },
+  "checkDistanceFromSiteLimit": "{distance} from {site} (limit {limit} m)",
+  "@checkDistanceFromSiteLimit": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      },
+      "site": {
+        "type": "String"
+      },
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "checkGpsAccuracy": "GPS accuracy ±{meters} m",
+  "@checkGpsAccuracy": {
+    "placeholders": {
+      "meters": {
+        "type": "int"
+      }
+    }
+  },
+  "checkEstimatedOnDevice": "Estimated on this device",
+  "checkServerDecides": "The server makes the final decision. You can still try.",
+  "checkSelfieRequired": "Selfie required",
+  "checkSelfieRequiredMsg": "Your workplace asks for a photo with each check.",
+  "checkTake": "Take",
+  "checkYourSelfie": "Your selfie",
+  "checkSelfieReady": "Selfie ready",
+  "checkSelfieReadyMsg": "It is sent with this check only.",
+  "checkRetake": "Retake",
+  "checkRemove": "Remove",
+  "checkSelfiePreviewSemantic": "Selfie preview",
+  "checkUsePhoto": "Use photo",
+  "checkPermDeniedTitle": "Location permission needed",
+  "checkPermDeniedMsg": "PeopleOS uses your location only at the moment you check in or out, to confirm you are at work. It never tracks you in the background.",
+  "checkPermBlockedTitle": "Location is blocked",
+  "checkPermBlockedMsg": "Location access was turned off for PeopleOS. Open the app settings, allow Location, then come back.",
+  "checkOpenAppSettings": "Open app settings",
+  "checkServiceOffTitle": "Location services are off",
+  "checkServiceOffMsg": "Turn on location (GPS) for this device so we can confirm you are at your work site.",
+  "checkOpenLocationSettings": "Open location settings",
+  "checkUnavailableTitle": "Couldn''t get your location",
+  "checkUnavailableMsg": "Move to an open area or near a window, then try again.",
+  "checkResultCheckedInAt": "Checked in at {time}",
+  "@checkResultCheckedInAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "checkResultCheckedOutAt": "Checked out at {time}",
+  "@checkResultCheckedOutAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "checkResultSavedOnDevice": "Saved on this device",
+  "checkResultOfflineInBody": "Checked in at {time} (pending sync). It will be sent automatically as soon as the connection is back. Nothing is lost.",
+  "@checkResultOfflineInBody": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "checkResultOfflineOutBody": "Checked out at {time} (pending sync). It will be sent automatically as soon as the connection is back. Nothing is lost.",
+  "@checkResultOfflineOutBody": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "checkWorkSiteFallback": "work site",
+  "checkSummaryRecorded": "Your attendance has been recorded.",
+  "checkSummaryLate": "You are {duration} late today. Have a good day!",
+  "@checkSummaryLate": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "checkSummaryOnTime": "You are on time. Have a great day!",
+  "checkSummaryWorked": "You worked {duration} today. See you tomorrow!",
+  "@checkSummaryWorked": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "checkMapLocating": "Locating you",
+  "checkMapGeneric": "Location map",
+  "checkMapRelative": "Map showing your position relative to {site}",
+  "@checkMapRelative": {
+    "placeholders": {
+      "site": {
+        "type": "String"
+      }
+    }
+  }
+}

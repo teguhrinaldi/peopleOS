@@ -1,0 +1,1 @@
+@include('errors.minimal', ['code' => '404', 'icon' => 'search', 'heading' => 'We cannot find that page', 'message' => 'The link may be broken, or the record may have been removed. Check the address or head back to the dashboard.', 'tone' => 'bg-primary-soft text-primary-ink'])

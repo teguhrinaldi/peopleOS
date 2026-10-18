@@ -1,0 +1,321 @@
+{
+  "leaveErrOverlap": "These dates overlap another leave request that is pending or approved.",
+  "leaveErrInsufficientBalance": "{available, plural, =1{Not enough balance: you asked for {requestedDays} but only {availableDays} is available.} other{Not enough balance: you asked for {requestedDays} but only {availableDays} are available.}}",
+  "@leaveErrInsufficientBalance": {
+    "placeholders": {
+      "available": {
+        "type": "num"
+      },
+      "requestedDays": {
+        "type": "String"
+      },
+      "availableDays": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveErrInsufficientBalanceGeneric": "Not enough leave balance for these dates.",
+  "leaveErrNoticeTooShort": "This leave type needs more advance notice. Choose a later start date.",
+  "leaveErrTooFarInPast": "This leave starts too far in the past for this leave type.",
+  "leaveErrNoWorkingDays": "The selected dates contain no working days (weekends and holidays are not counted).",
+  "leaveErrSpansYears": "A request cannot cross into the next leave year. Split it into two requests.",
+  "leaveErrTooLong": "This request is longer than the maximum allowed for this leave type. Shorten the dates or split it into separate requests.",
+  "leaveErrHalfDaySingleDate": "A half day must start and end on the same date.",
+  "leaveErrHalfDayNotAllowed": "This leave type does not allow half days.",
+  "leaveErrInvalidDateRange": "The end date must be on or after the start date.",
+  "leaveErrTypeUnavailable": "This leave type is no longer available.",
+  "leaveErrPolicyMissing": "This leave type has no policy for you yet. Contact HR.",
+  "leaveErrAlreadyStarted": "This leave has already started and can no longer be cancelled.",
+  "leaveErrRequestNotPending": "This request was already decided or cancelled. Pull to refresh.",
+  "leaveErrEmployeeTerminated": "Your employment has ended, so new leave cannot be requested.",
+  "leaveErrEmployeeNotActive": "Your employee profile is not active yet. Contact HR.",
+  "leaveStatusDraft": "Draft",
+  "leaveStatusPending": "Pending",
+  "leaveStatusApproved": "Approved",
+  "leaveStatusRejected": "Rejected",
+  "leaveStatusCancelled": "Cancelled",
+  "leaveHalfDayAm": "Morning (AM)",
+  "leaveHalfDayPm": "Afternoon (PM)",
+  "leaveHintUnlimited": "Not limited by a yearly balance",
+  "leaveHintPerYear": "{days} per year",
+  "@leaveHintPerYear": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveHintNotice": "{n, plural, =1{Request at least 1 day ahead} other{Request at least {n} days ahead}}",
+  "@leaveHintNotice": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "leaveHintMaxPast": "{n, plural, =1{Can start up to 1 day in the past} other{Can start up to {n} days in the past}}",
+  "@leaveHintMaxPast": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "leaveHintMaxConsecutive": "Max {n} working days per request",
+  "@leaveHintMaxConsecutive": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "leaveHintHalfDay": "Half days allowed",
+  "leaveHintReasonRequired": "Reason required",
+  "leaveDurationCountedOnSubmit": "Counted when submitted",
+  "leaveDurationWithHalf": "{days} · {half}",
+  "@leaveDurationWithHalf": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      },
+      "half": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveBalanceDaysUsedYear": "days used this year",
+  "leaveBalanceOfAvailable": "of {total} available",
+  "@leaveBalanceOfAvailable": {
+    "placeholders": {
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveBalancePending": "{n} pending",
+  "@leaveBalancePending": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveBalanceNoLimit": "No yearly limit",
+  "leaveBalanceUsedPending": "{used} used · {pending} pending",
+  "@leaveBalanceUsedPending": {
+    "placeholders": {
+      "used": {
+        "type": "String"
+      },
+      "pending": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveBalanceSemantics": "{type}: {headline} {caption}. {footer}.",
+  "@leaveBalanceSemantics": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      },
+      "headline": {
+        "type": "String"
+      },
+      "caption": {
+        "type": "String"
+      },
+      "footer": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveCardSemantics": "{type}, {dates}, {duration}, {status}",
+  "@leaveCardSemantics": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      },
+      "dates": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveCardSubtitle": "{type} · {duration}",
+  "@leaveCardSubtitle": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "leavePreviewIntro": "Choose a type and dates to see how many working days this uses.",
+  "leavePreviewCalculating": "Calculating...",
+  "leavePreviewSummary": "Summary",
+  "leavePreviewDaysOfLeave": "{days} of leave",
+  "@leavePreviewDaysOfLeave": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "leavePreviewNotCounted": "Weekends and public holidays are not counted.",
+  "leavePreviewMore": "+{n} more",
+  "@leavePreviewMore": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "leavePreviewUnlimited": "Not limited by a yearly balance.",
+  "leavePreviewNotEnough": "Not enough balance: {available} available, this needs {needed}.",
+  "@leavePreviewNotEnough": {
+    "placeholders": {
+      "available": {
+        "type": "String"
+      },
+      "needed": {
+        "type": "String"
+      }
+    }
+  },
+  "leavePreviewLeftAfter": "{after} left after this request ({available} available now).",
+  "@leavePreviewLeftAfter": {
+    "placeholders": {
+      "after": {
+        "type": "String"
+      },
+      "available": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveRequestButton": "Request leave",
+  "leaveEmptyTitle": "No leave requests yet",
+  "leaveEmptyMessage": "Plan time off: pick a type and dates, and see your balance before you submit.",
+  "leaveEmptyFiltered": "{status, select, draft{No draft requests} pending{No pending requests} approved{No approved requests} rejected{No rejected requests} cancelled{No cancelled requests} other{No requests}}",
+  "@leaveEmptyFiltered": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveFilterAll": "All",
+  "leaveFilterPending": "Pending",
+  "leaveFilterApproved": "Approved",
+  "leaveFilterDrafts": "Drafts",
+  "leaveFilterRejected": "Rejected",
+  "leaveFilterCancelled": "Cancelled",
+  "leaveFilterSemantics": "Filter: {label}",
+  "@leaveFilterSemantics": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveDetailTitle": "Leave request",
+  "leaveConfirmDiscardTitle": "Discard this draft?",
+  "leaveConfirmCancelTitle": "Cancel this leave?",
+  "leaveConfirmCancelApprovedMessage": "Your approved leave will be cancelled and the days returned to your balance.",
+  "leaveConfirmWithdrawMessage": "The request will be withdrawn. You can submit a new one later.",
+  "leaveConfirmDiscard": "Discard",
+  "leaveConfirmCancelLeave": "Cancel leave",
+  "leaveKeepIt": "Keep it",
+  "leaveDraftDiscarded": "Draft discarded",
+  "leaveCancelledSnack": "Leave cancelled",
+  "leaveUnpaid": "Unpaid",
+  "leaveDetailDates": "Dates",
+  "leaveDetailDuration": "Duration",
+  "leaveDetailType": "Type",
+  "leaveDetailWorkingDays": "Working days",
+  "leaveDetailReason": "Reason",
+  "leaveDetailRejectionReason": "Rejection reason",
+  "leaveDetailStatus": "Status",
+  "leaveSubmitRequest": "Submit request",
+  "leaveSubmittedSnack": "Leave request submitted",
+  "leaveEditDraft": "Edit draft",
+  "leaveDiscardDraft": "Discard draft",
+  "leaveCancelApproved": "Cancel approved leave",
+  "leaveCancelRequest": "Cancel request",
+  "leaveStepCreated": "Created",
+  "leaveStepSubmitted": "Submitted for approval",
+  "leaveStepDraft": "Draft, not submitted yet",
+  "leaveStepWaiting": "Waiting for your manager",
+  "leaveStepApproved": "Approved",
+  "leaveStepApprovedBy": "Approved by {name}",
+  "@leaveStepApprovedBy": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveStepRejected": "Rejected",
+  "leaveStepRejectedBy": "Rejected by {name}",
+  "@leaveStepRejectedBy": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveStepCancelled": "Cancelled",
+  "leaveFormTitle": "Request leave",
+  "leaveFormEditTitle": "Edit leave draft",
+  "leaveFormType": "Leave type",
+  "leaveFormTypeLoading": "Loading leave types...",
+  "leaveFormTypeHint": "Choose a type",
+  "leaveTypeNotAvailable": "Not available for you yet",
+  "leaveTypeUnpaidNoLimit": "Unpaid · no yearly limit",
+  "leaveTypeAvailableOf": "{available} available of {total}",
+  "@leaveTypeAvailableOf": {
+    "placeholders": {
+      "available": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveFormFirstDayHelp": "First day of leave",
+  "leaveFormLastDayHelp": "Last day of leave",
+  "leaveValChooseType": "Choose a leave type.",
+  "leaveValChooseFirstDay": "Choose the first day.",
+  "leaveValChooseLastDay": "Choose the last day.",
+  "leaveValReasonRequired": "A reason is required for {type}.",
+  "@leaveValReasonRequired": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveDraftSaved": "Draft saved",
+  "leaveSaveDraft": "Save draft",
+  "leaveSaveAsDraft": "Save as draft",
+  "leaveSubmit": "Submit",
+  "leaveFormFrom": "From",
+  "leaveFormTo": "To",
+  "leaveFormFirstDay": "First day",
+  "leaveFormLastDay": "Last day",
+  "leaveFormLength": "Length",
+  "leaveFormFullDay": "Full day",
+  "leaveFormMorning": "Morning",
+  "leaveFormAfternoon": "Afternoon",
+  "leaveFormReasonRequired": "Reason (required)",
+  "leaveFormReasonOptional": "Reason (optional)",
+  "leaveFormReasonHint": "e.g. Family event in Medan"
+}

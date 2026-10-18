@@ -1,0 +1,1545 @@
+{
+  "@@locale": "en",
+  "appName": "PeopleOS",
+  "languageTitle": "Language",
+  "languageEnglish": "English",
+  "languageIndonesian": "Bahasa Indonesia",
+  "languageSystem": "Device default",
+  "languageSavedLocalOnly": "Language changed on this device, but it could not be saved to your account.",
+  "staleBanner": "Showing saved data from {age}. Reconnect and pull to refresh.",
+  "@staleBanner": {
+    "placeholders": {
+      "age": {
+        "type": "String"
+      }
+    }
+  },
+  "ageJustNow": "just now",
+  "ageMinutes": "{count, plural, =1{1 minute ago} other{{count} minutes ago}}",
+  "@ageMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "ageHours": "{count, plural, =1{1 hour ago} other{{count} hours ago}}",
+  "@ageHours": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "ageDays": "{count, plural, =1{1 day ago} other{{count} days ago}}",
+  "@ageDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "durationHm": "{h}h {m}m",
+  "@durationHm": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      },
+      "m": {
+        "type": "int"
+      }
+    }
+  },
+  "durationH": "{h}h",
+  "@durationH": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      }
+    }
+  },
+  "durationM": "{m}m",
+  "@durationM": {
+    "placeholders": {
+      "m": {
+        "type": "int"
+      }
+    }
+  },
+  "greetingMorning": "Good morning",
+  "greetingAfternoon": "Good afternoon",
+  "greetingEvening": "Good evening",
+  "greetingNight": "Good night",
+  "daysOne": "{n} day",
+  "@daysOne": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "daysMany": "{n} days",
+  "@daysMany": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "attendanceLate": "Late {duration}",
+  "@attendanceLate": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "attendanceLateEstimate": "Late {duration} (estimate)",
+  "@attendanceLateEstimate": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "attendanceOnTime": "On time",
+  "attendanceHistoryTitle": "Attendance History",
+  "attendanceRequestCorrection": "Request correction",
+  "attendancePreviousMonth": "Previous month",
+  "attendanceNextMonth": "Next month",
+  "attendanceSelectDay": "Select a day",
+  "attendanceEmptyTitle": "No attendance yet",
+  "attendanceEmptyMessage": "Nothing recorded for {month}.",
+  "@attendanceEmptyMessage": {
+    "placeholders": {
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "attendanceStatPresent": "Present",
+  "attendanceStatLate": "Late",
+  "attendanceStatHours": "Hours",
+  "attendanceStatSemantic": "{label}: {value}",
+  "@attendanceStatSemantic": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "attendanceRowSemanticLate": "{date}, {times}, {minutes, plural, =1{late 1 minute} other{late {minutes} minutes}}",
+  "@attendanceRowSemanticLate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "times": {
+        "type": "String"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "attendanceRowSemanticOnTime": "{date}, {times}, on time",
+  "@attendanceRowSemanticOnTime": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "times": {
+        "type": "String"
+      }
+    }
+  },
+  "attendanceBadgeWorking": "Working",
+  "attendanceBadgeCorrected": "Corrected",
+  "attendanceBadgeCorrection": "Correction",
+  "attendanceBadgeInReview": "In review",
+  "attendanceBadgeRejected": "Rejected",
+  "attendanceBadgePresent": "Present",
+  "attendanceSavedOnDevice": "Saved on this device",
+  "attendanceCouldNotSync": "Could not sync",
+  "attendanceSyncFailed": "Sync failed",
+  "attendancePendingSync": "Pending sync",
+  "attendanceCheckTypeIn": "Check in",
+  "attendanceCheckTypeOut": "Check out",
+  "attendanceLeftEarly": "Left {duration} early",
+  "@attendanceLeftEarly": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "attendanceKvCheckIn": "Check in",
+  "attendanceKvCheckOut": "Check out",
+  "attendanceKvWorked": "Worked",
+  "attendanceKvShift": "Shift",
+  "attendanceKvLocation": "Location",
+  "attendanceCheckInDetails": "Check-in details",
+  "attendanceCheckOutDetails": "Check-out details",
+  "attendanceReviewNote": "Review note",
+  "attendanceInsideGeofence": "Inside geofence",
+  "attendanceOutsideGeofence": "Outside geofence",
+  "attendanceRecordedOffline": "Recorded offline",
+  "attendanceSelfieUnavailable": "Selfie unavailable",
+  "attendanceSelfieSemantic": "Attendance selfie",
+  "attendanceErrNoConnection": "No internet connection.",
+  "attendanceErrTimeout": "The server took too long to respond.",
+  "attendanceErrServer": "Something went wrong on the server. Please try again.",
+  "attendanceErrRateLimited": "Too many requests. Please wait a moment.",
+  "attendanceErrSession": "Your session expired. Sign in again to send this action.",
+  "authEnterEmail": "Enter your email address",
+  "authEnterValidEmail": "Enter a valid email address",
+  "authEnterServer": "Enter the server address",
+  "authEnterValidServer": "Enter a valid server address",
+  "authBadCredentials": "The email or password is incorrect.",
+  "authAccountDisabled": "Your account has been disabled. Please contact HR.",
+  "authNoEmployeeProfile": "No employee profile is linked to this account.",
+  "authSessionExpired": "Your session has expired. Please sign in again.",
+  "authErrorRetryIn": "{message} Try again in {seconds}s.",
+  "@authErrorRetryIn": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      },
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "authWelcomeBack": "Welcome back",
+  "authSignInSubtitle": "Sign in to your account",
+  "authServerAddress": "Server address",
+  "authServerHelper": "The address of your PeopleOS server. Android emulator: http://10.0.2.2:8000",
+  "authEmailAddress": "Email address",
+  "authPassword": "Password",
+  "authPasswordHint": "Enter your password",
+  "authPasswordRequired": "Password is required",
+  "authShowPassword": "Show password",
+  "authHidePassword": "Hide password",
+  "authSignIn": "Sign in",
+  "authForgotPassword": "Forgot password?",
+  "authDemoAccount": "Demo Account",
+  "authDemoNote": "Demo mode: sample data on this device, no server needed.",
+  "authForgotTitle": "Forgot your password?",
+  "authForgotBody": "Password resets are handled by your HR administrator. Ask them to reset your password, then sign in with the new one.",
+  "authGotIt": "Got it",
+  "authRememberMe": "Remember me",
+  "authChange": "Change",
+  "authTagline": "Manage people. Simplify work.",
+  "authSplashSemantics": "PeopleOS. Manage people. Simplify work.",
+  "authVersion": "v{version}",
+  "@authVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "profilePersonalInfo": "Personal Information",
+  "profileEmployment": "Employment",
+  "profileWorkInfo": "Work Information",
+  "profileDocuments": "Documents",
+  "profileNotifications": "Notifications",
+  "profileSettings": "Settings",
+  "profileNewCount": "{count} new",
+  "@profileNewCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "profileLogout": "Logout",
+  "profileSignOutTitle": "Sign out?",
+  "profileSignOutAction": "Sign out",
+  "profileSignOutPending": "You have {count, plural, =1{1 attendance action} other{{count} attendance actions}} not synced yet. They stay safely on this device and sync after you sign in again.",
+  "@profileSignOutPending": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "profileSignOutMessage": "You will need to sign in again to use PeopleOS.",
+  "profileStatusActive": "Active",
+  "profileStatusPending": "Pending",
+  "profileStatusTerminated": "Terminated",
+  "profileStatusInactive": "Inactive",
+  "profileFullName": "Full name",
+  "profileGender": "Gender",
+  "profileDateOfBirth": "Date of birth",
+  "profilePhone": "Phone",
+  "profileEmail": "Email",
+  "profileAddress": "Address",
+  "profileEmployeeNumber": "Employee number",
+  "profileDepartment": "Department",
+  "profilePosition": "Position",
+  "profileManager": "Manager",
+  "profileJoinDate": "Join date",
+  "profileEmploymentType": "Employment type",
+  "profileStatus": "Status",
+  "profileBranch": "Branch",
+  "profileWorkLocation": "Work location",
+  "profileShift": "Shift",
+  "profileShiftHours": "Shift hours",
+  "profileCompany": "Company",
+  "profileTimezone": "Timezone",
+  "profileGenderMale": "Male",
+  "profileGenderFemale": "Female",
+  "profileTypePermanent": "Permanent",
+  "profileTypeContract": "Contract",
+  "profileTypeProbation": "Probation",
+  "profileTypeInternship": "Internship",
+  "profileTypeFreelance": "Freelance",
+  "profileTypePartTime": "Part-time",
+  "settingsTitle": "Settings",
+  "settingsAppearance": "Appearance",
+  "settingsThemeLight": "Light",
+  "settingsThemeDark": "Dark",
+  "settingsThemeSystem": "System",
+  "settingsGeneral": "General",
+  "settingsSyncStatus": "Sync status",
+  "settingsSyncSubtitle": "Attendance saved on this device",
+  "settingsServerAddress": "Server address",
+  "settingsNotSet": "Not set",
+  "settingsAddress": "Address",
+  "settingsServerHelper": "Android emulator: http://10.0.2.2:8000  ·  iOS simulator: http://127.0.0.1:8000",
+  "settingsServerSaved": "Server address saved",
+  "settingsDemoControls": "Demo controls",
+  "settingsAbout": "About",
+  "settingsAboutApp": "App",
+  "settingsAboutVersion": "Version",
+  "settingsAboutMode": "Mode",
+  "settingsAboutCompany": "Company",
+  "settingsAboutTimezone": "Timezone",
+  "settingsAppName": "PeopleOS Employee",
+  "settingsModeServer": "Connected to server",
+  "settingsModeDemo": "Demo (offline sample data)",
+  "settingsScenario": "Scenario",
+  "settingsDemoScenario": "Demo scenario",
+  "settingsScenarioNormal": "Normal working day",
+  "settingsScenarioSelfie": "Selfie required (strict policy)",
+  "settingsScenarioRestDay": "Not a working day",
+  "settingsScenarioNoSchedule": "No schedule assigned",
+  "settingsScenarioOnLeave": "On approved leave today",
+  "settingsScenarioTerminated": "Terminated employee (blocked)",
+  "settingsSimOutside": "Simulate outside work area",
+  "settingsSimOutsideSub": "Fake GPS ~330 m from the office",
+  "settingsSimOffline": "Simulate offline",
+  "settingsSimOfflineSub": "Try saving attendance without a connection",
+  "settingsResetDemo": "Reset demo data",
+  "settingsResetDemoSub": "Clears today''s attendance and requests",
+  "settingsResetDemoTitle": "Reset demo data?",
+  "settingsResetDemoMessage": "Attendance and requests you created in the demo are removed.",
+  "settingsReset": "Reset",
+  "settingsDemoDataReset": "Demo data reset",
+  "settingsDemoModeNote": "Demo mode runs entirely on this device with sample data.",
+  "appComingSoonTitle": "{feature} is coming soon",
+  "@appComingSoonTitle": {
+    "placeholders": {
+      "feature": {
+        "type": "String"
+      }
+    }
+  },
+  "appComingSoonGeneric": "Coming soon",
+  "appComingSoonDocuments": "Secure employee documents and expiry alerts arrive in an upcoming release.",
+  "appComingSoonMore": "More employee services are on the roadmap. Attendance, requests and your profile are ready today.",
+  "appComingSoonDefault": "This feature arrives in an upcoming release.",
+  "appFeatureDocuments": "Documents",
+  "appFeatureMore": "More",
+  "authServerHint": "https://hr.yourcompany.com",
+  "authEmailHint": "you@company.com",
+  "settingsServerHint": "https://hr.yourcompany.com",
+  "checkTitleCheckIn": "Check-in",
+  "checkTitleCheckOut": "Check-out",
+  "checkConfirmLocation": "Confirm your location",
+  "checkConfirmCheckOutTitle": "Confirm check-out",
+  "checkSelfiePreviewTitle": "Selfie preview",
+  "checkGettingLocation": "Getting your location...",
+  "checkGps": "GPS",
+  "checkWaiting": "Waiting",
+  "checkLocationCaptured": "Location captured",
+  "checkGeofence": "Geofence",
+  "checkWithinArea": "Within area",
+  "checkOutsideArea": "Outside area",
+  "checkCheckedByServer": "Checked by server",
+  "checkSelfie": "Selfie",
+  "checkDone": "Done",
+  "checkOfflineNote": "You''re offline. This check will be saved on your device and sent when you''re back online.",
+  "checkBackToHome": "Back to Home",
+  "checkConfirmCheckIn": "Confirm Check In",
+  "checkConfirmCheckOut": "Confirm Check Out",
+  "checkTakeSelfieToContinue": "Take a selfie to continue.",
+  "checkRejectedLocation": "Couldn''t record your location",
+  "checkRejectedAttendance": "Couldn''t record your attendance",
+  "checkAreaInside": "You are within work area",
+  "checkAreaOutside": "You appear to be outside the work area",
+  "checkNoSite": "No work site is configured for today.",
+  "checkDistanceFromSite": "{distance} from {site}",
+  "@checkDistanceFromSite": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      },
+      "site": {
+        "type": "String"
+      }
+    }
+  },
+  "checkDistanceFromSiteLimit": "{distance} from {site} (limit {limit} m)",
+  "@checkDistanceFromSiteLimit": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      },
+      "site": {
+        "type": "String"
+      },
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "checkGpsAccuracy": "GPS accuracy ±{meters} m",
+  "@checkGpsAccuracy": {
+    "placeholders": {
+      "meters": {
+        "type": "int"
+      }
+    }
+  },
+  "checkEstimatedOnDevice": "Estimated on this device",
+  "checkServerDecides": "The server makes the final decision. You can still try.",
+  "checkSelfieRequired": "Selfie required",
+  "checkSelfieRequiredMsg": "Your workplace asks for a photo with each check.",
+  "checkTake": "Take",
+  "checkYourSelfie": "Your selfie",
+  "checkSelfieReady": "Selfie ready",
+  "checkSelfieReadyMsg": "It is sent with this check only.",
+  "checkRetake": "Retake",
+  "checkRemove": "Remove",
+  "checkSelfiePreviewSemantic": "Selfie preview",
+  "checkUsePhoto": "Use photo",
+  "checkPermDeniedTitle": "Location permission needed",
+  "checkPermDeniedMsg": "PeopleOS uses your location only at the moment you check in or out, to confirm you are at work. It never tracks you in the background.",
+  "checkPermBlockedTitle": "Location is blocked",
+  "checkPermBlockedMsg": "Location access was turned off for PeopleOS. Open the app settings, allow Location, then come back.",
+  "checkOpenAppSettings": "Open app settings",
+  "checkServiceOffTitle": "Location services are off",
+  "checkServiceOffMsg": "Turn on location (GPS) for this device so we can confirm you are at your work site.",
+  "checkOpenLocationSettings": "Open location settings",
+  "checkUnavailableTitle": "Couldn''t get your location",
+  "checkUnavailableMsg": "Move to an open area or near a window, then try again.",
+  "checkResultCheckedInAt": "Checked in at {time}",
+  "@checkResultCheckedInAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "checkResultCheckedOutAt": "Checked out at {time}",
+  "@checkResultCheckedOutAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "checkResultSavedOnDevice": "Saved on this device",
+  "checkResultOfflineInBody": "Checked in at {time} (pending sync). It will be sent automatically as soon as the connection is back. Nothing is lost.",
+  "@checkResultOfflineInBody": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "checkResultOfflineOutBody": "Checked out at {time} (pending sync). It will be sent automatically as soon as the connection is back. Nothing is lost.",
+  "@checkResultOfflineOutBody": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "checkWorkSiteFallback": "work site",
+  "checkSummaryRecorded": "Your attendance has been recorded.",
+  "checkSummaryLate": "You are {duration} late today. Have a good day!",
+  "@checkSummaryLate": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "checkSummaryOnTime": "You are on time. Have a great day!",
+  "checkSummaryWorked": "You worked {duration} today. See you tomorrow!",
+  "@checkSummaryWorked": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "checkMapLocating": "Locating you",
+  "checkMapGeneric": "Location map",
+  "checkMapRelative": "Map showing your position relative to {site}",
+  "@checkMapRelative": {
+    "placeholders": {
+      "site": {
+        "type": "String"
+      }
+    }
+  },
+  "commonCancel": "Cancel",
+  "commonOk": "OK",
+  "commonTryAgain": "Try again",
+  "commonBack": "Back",
+  "commonDone": "Done",
+  "commonSave": "Save",
+  "commonSubmit": "Submit",
+  "commonClose": "Close",
+  "commonRetry": "Retry",
+  "commonSoon": "Soon",
+  "commonYes": "Yes",
+  "commonNo": "No",
+  "commonClear": "Clear {label}",
+  "@commonClear": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "commonSelect": "Select",
+  "commonSelectItem": "Select an item",
+  "commonLoading": "Loading",
+  "commonProfilePhotoOf": "Profile photo of {name}",
+  "@commonProfilePhotoOf": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "commonSyncStatus": "Sync status: {label}",
+  "@commonSyncStatus": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "commonOfflineTitle": "You''re offline.",
+  "commonOfflineSaved": "Attendance is saved on this device and syncs automatically.",
+  "commonOfflineWaiting": "{count, plural, =1{1 action waiting to sync.} other{{count} actions waiting to sync.}}",
+  "@commonOfflineWaiting": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "navHome": "Home",
+  "navAttendance": "Attendance",
+  "navRequests": "Requests",
+  "navPayslip": "Payslip",
+  "navProfile": "Profile",
+  "badgeActive": "Active",
+  "badgePending": "Pending",
+  "badgeApproved": "Approved",
+  "badgeRejected": "Rejected",
+  "badgeExpired": "Expired",
+  "badgeLate": "Late",
+  "badgeOnTime": "On time",
+  "badgeWorking": "WORKING",
+  "badgeOffline": "Offline",
+  "errOfflineTitle": "You''re offline",
+  "errTimeoutTitle": "The server is slow to respond",
+  "errForbiddenTitle": "Access denied",
+  "errNotFoundTitle": "Not found",
+  "errServerTitle": "Server problem",
+  "errGenericTitle": "Something went wrong",
+  "errPleaseTryAgain": "Please try again.",
+  "errNoConnection": "No internet connection. Check your network and try again.",
+  "errTimeout": "The server took too long to respond.",
+  "errServer": "Something went wrong on the server. Please try again.",
+  "errForbidden": "You don''t have permission to do this.",
+  "errNotFound": "We couldn''t find what you were looking for.",
+  "errUnauthorized": "Your session has expired. Please sign in again.",
+  "errRateLimited": "Too many requests. Please try again in a moment.",
+  "errUnknown": "Unexpected error. Please try again.",
+  "errAttOutsideGeofenceDistance": "You are {distance} m from the work site. You must be within {radius} m to record attendance.",
+  "@errAttOutsideGeofenceDistance": {
+    "placeholders": {
+      "distance": {
+        "type": "int"
+      },
+      "radius": {
+        "type": "int"
+      }
+    }
+  },
+  "errAttOutsideGeofence": "You are outside the allowed work area.",
+  "errAttGpsRequired": "Location is required to record attendance.",
+  "errAttGpsAccuracyTooLow": "GPS accuracy is too low. Move to an open area and try again.",
+  "errAttMockLocation": "A mock location was detected. Turn it off and try again.",
+  "errAttLocationStale": "The location fix is too old. Please try again.",
+  "errAttSelfieRequired": "A selfie is required for this check.",
+  "errAttAlreadyCheckedIn": "You are already checked in.",
+  "errAttAlreadyCheckedOut": "You have already checked out for this day.",
+  "errAttNotCheckedIn": "You need to check in before checking out.",
+  "errAttCheckOutTooLate": "The check-out window for this shift has closed.",
+  "errAttOnLeave": "You are on approved leave today, so check-in is not needed.",
+  "errAttNoSchedule": "You have no schedule for today.",
+  "errAttNotWorkingDay": "Today is not a working day for you.",
+  "errAttOfflineEventTooOld": "This action was saved offline for too long to be accepted. Ask for an attendance correction instead.",
+  "errAttInvalidEventTime": "The time recorded on this device was not accepted. Ask for an attendance correction instead.",
+  "errAttEmployeeTerminated": "Your employment has ended. Attendance is disabled.",
+  "errAttEmployeeNotActive": "Your employee profile is not active yet.",
+  "errAttAccountDisabled": "Your account has been disabled. Contact HR.",
+  "errAttIdempotencyConflict": "This action conflicts with an earlier one. Please refresh.",
+  "errFileMissing": "The file is missing on the server. Please tell HR.",
+  "errFileUnavailable": "This file is no longer available.",
+  "errFileForbidden": "You are not allowed to open this file.",
+  "errFileOpenFailed": "Could not open the file on this device.",
+  "commonSharedFile": "Opened share sheet for {name}",
+  "@commonSharedFile": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "commonDownloadedFile": "Downloaded {name}",
+  "@commonDownloadedFile": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "documentsTitle": "Documents",
+  "documentsDetailTitle": "Document",
+  "documentsSelectPrompt": "Select a document",
+  "documentsEmptyTitle": "No documents",
+  "documentsEmptyFiltered": "Nothing matches these filters.",
+  "documentsEmptyDefault": "Documents shared with you by HR appear here.",
+  "documentsFilterAll": "All",
+  "documentsFilterSemantics": "Filter: {label}",
+  "@documentsFilterSemantics": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "documentsStatusActive": "Active",
+  "documentsStatusExpiring": "Expiring",
+  "documentsStatusExpired": "Expired",
+  "documentsStatusArchived": "Archived",
+  "documentsTypeCompany": "{type} · Company",
+  "@documentsTypeCompany": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "documentsExpiredAgo": "{n, plural, =1{Expired 1 day ago} other{Expired {n} days ago}}",
+  "@documentsExpiredAgo": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "documentsExpiresToday": "Expires today",
+  "documentsExpiresTomorrow": "Expires tomorrow",
+  "documentsExpiresIn": "Expires in {n} days",
+  "@documentsExpiresIn": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "documentsOwner": "Owner",
+  "documentsOwnerCompany": "Company document",
+  "documentsOwnerYou": "You",
+  "documentsExpiryDate": "Expiry date",
+  "documentsNoExpiry": "No expiry",
+  "documentsFile": "File",
+  "documentsFileValue": "{name} · {size}",
+  "@documentsFileValue": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "documentsUploaded": "Uploaded",
+  "documentsDownloadOpen": "Download / open",
+  "documentsFileSizeBytes": "{n} B",
+  "@documentsFileSizeBytes": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "documentsFileSizeKb": "{n} KB",
+  "@documentsFileSizeKb": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "documentsFileSizeMb": "{n} MB",
+  "@documentsFileSizeMb": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "documentsSemantics": "{title}, {type}, {status}",
+  "@documentsSemantics": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "type": {
+        "type": "String"
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "documentsSemanticsExpiry": "{title}, {type}, {status}, {expiry}",
+  "@documentsSemanticsExpiry": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "type": {
+        "type": "String"
+      },
+      "status": {
+        "type": "String"
+      },
+      "expiry": {
+        "type": "String"
+      }
+    }
+  },
+  "homeAttendance": "Attendance",
+  "homeQuickLeave": "Leave",
+  "homeQuickPayslip": "Payslip",
+  "homeQuickAttendance": "Attendance",
+  "homeQuickRequests": "Requests",
+  "homeQuickDocuments": "Documents",
+  "homeQuickMore": "More",
+  "homeLoadingToday": "Loading today",
+  "homeSavedWaitingSync": "Saved on this device. Waiting to sync.",
+  "homeFailedActions": "{count, plural, =1{1 attendance action could not sync. Review} other{{count} attendance actions could not sync. Review}}",
+  "@homeFailedActions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeStaleSchedule": "Showing your last known schedule while offline.",
+  "homeShiftStarts": "Shift starts {time}",
+  "@homeShiftStarts": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "homeNotCheckedIn": "Not checked in",
+  "homeReadyWhenYouAre": "Ready when you are.",
+  "homeCheckedInTitle": "You''re Checked In",
+  "homeBadgeWorking": "WORKING",
+  "homeCheckedOutTitle": "Checked out",
+  "homeCheckedOutWorked": "{inTime} - {outTime} · {duration} on the clock",
+  "@homeCheckedOutWorked": {
+    "placeholders": {
+      "inTime": {
+        "type": "String"
+      },
+      "outTime": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "homeWaitingReview": "Waiting for review",
+  "homeWaitingReviewMsg": "Your attendance for today needs a manager review before it is final.",
+  "homeCorrectionPending": "Correction pending",
+  "homeCorrectionPendingMsg": "Your correction request is waiting for approval.",
+  "homeBadgePending": "Pending",
+  "homeRejectedTitle": "Attendance rejected",
+  "homeRejectedMsg": "Your last correction was rejected. Contact your manager.",
+  "homeBadgeRejected": "Rejected",
+  "homeNotWorkingDay": "Not a working day",
+  "homeDayOffMsg": "Enjoy your day off. Check-in is not needed today.",
+  "homeBadgeDayOff": "Day off",
+  "homeOnLeaveTitle": "On leave today",
+  "homeOnLeaveMsg": "Enjoy your time off. Check-in is not needed while your leave is approved.",
+  "homeBadgeOnLeave": "On leave",
+  "homeNoScheduleTitle": "No schedule for today",
+  "homeNoScheduleMsg": "No shift is assigned to you yet. Ask HR or your manager to assign one.",
+  "homeBadgeNoShift": "No shift",
+  "homeBlockedTitle": "Attendance unavailable",
+  "homeBlockedTerminatedMsg": "Your employment has ended, so check-in is disabled. Your history stays available.",
+  "homeBlockedInactiveMsg": "Your employee profile is not active yet. Contact HR.",
+  "homeBadgeTerminated": "Terminated",
+  "homeBadgeInactive": "Inactive",
+  "homeSinceTime": "Since {time}",
+  "@homeSinceTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "homeTimeWorkedSemantic": "Time worked {duration}",
+  "@homeTimeWorkedSemantic": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCheckIn": "Check In",
+  "homeCheckOut": "Check Out",
+  "homeViewRequests": "View requests",
+  "homeDepartment": "{name} Department",
+  "@homeDepartment": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeNotifications": "Notifications",
+  "homeUnreadCount": "{count} unread",
+  "@homeUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeRecentActivity": "Recent activity",
+  "homeViewAll": "View all",
+  "homeActivityUnavailable": "Activity is unavailable right now.",
+  "homeNoAttendanceThisMonth": "No attendance recorded yet this month.",
+  "homeNoUpcomingLeave": "No upcoming leave",
+  "homeNextLeave": "Next leave",
+  "homePlanTimeOff": "Plan time off from Requests",
+  "homePendingCount": "{count} pending",
+  "@homePendingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeSummarySemantic": "{title}. {subtitle}. {count, plural, =1{1 pending request} other{{count} pending requests}}.",
+  "@homeSummarySemantic": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "subtitle": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeUpdates": "Updates",
+  "homePayslipAvailable": "Payslip available",
+  "homeDocsNeedAttention": "{count, plural, =1{1 document needs attention} other{{count} documents need attention}}",
+  "@homeDocsNeedAttention": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeExpiringSoon": "{count} expiring soon",
+  "@homeExpiringSoon": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeExpired": "{count} expired",
+  "@homeExpired": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeTodaysShift": "Today''s Shift",
+  "homeNotStarted": "Not started",
+  "homeOnSchedule": "On Schedule",
+  "homeNoShiftAssigned": "No shift assigned",
+  "homeRestDay": "Rest day",
+  "leaveErrOverlap": "These dates overlap another leave request that is pending or approved.",
+  "leaveErrInsufficientBalance": "{available, plural, =1{Not enough balance: you asked for {requestedDays} but only {availableDays} is available.} other{Not enough balance: you asked for {requestedDays} but only {availableDays} are available.}}",
+  "@leaveErrInsufficientBalance": {
+    "placeholders": {
+      "available": {
+        "type": "num"
+      },
+      "requestedDays": {
+        "type": "String"
+      },
+      "availableDays": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveErrInsufficientBalanceGeneric": "Not enough leave balance for these dates.",
+  "leaveErrNoticeTooShort": "This leave type needs more advance notice. Choose a later start date.",
+  "leaveErrTooFarInPast": "This leave starts too far in the past for this leave type.",
+  "leaveErrNoWorkingDays": "The selected dates contain no working days (weekends and holidays are not counted).",
+  "leaveErrSpansYears": "A request cannot cross into the next leave year. Split it into two requests.",
+  "leaveErrTooLong": "This request is longer than the maximum allowed for this leave type. Shorten the dates or split it into separate requests.",
+  "leaveErrHalfDaySingleDate": "A half day must start and end on the same date.",
+  "leaveErrHalfDayNotAllowed": "This leave type does not allow half days.",
+  "leaveErrInvalidDateRange": "The end date must be on or after the start date.",
+  "leaveErrTypeUnavailable": "This leave type is no longer available.",
+  "leaveErrPolicyMissing": "This leave type has no policy for you yet. Contact HR.",
+  "leaveErrAlreadyStarted": "This leave has already started and can no longer be cancelled.",
+  "leaveErrRequestNotPending": "This request was already decided or cancelled. Pull to refresh.",
+  "leaveErrEmployeeTerminated": "Your employment has ended, so new leave cannot be requested.",
+  "leaveErrEmployeeNotActive": "Your employee profile is not active yet. Contact HR.",
+  "leaveStatusDraft": "Draft",
+  "leaveStatusPending": "Pending",
+  "leaveStatusApproved": "Approved",
+  "leaveStatusRejected": "Rejected",
+  "leaveStatusCancelled": "Cancelled",
+  "leaveHalfDayAm": "Morning (AM)",
+  "leaveHalfDayPm": "Afternoon (PM)",
+  "leaveHintUnlimited": "Not limited by a yearly balance",
+  "leaveHintPerYear": "{days} per year",
+  "@leaveHintPerYear": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveHintNotice": "{n, plural, =1{Request at least 1 day ahead} other{Request at least {n} days ahead}}",
+  "@leaveHintNotice": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "leaveHintMaxPast": "{n, plural, =1{Can start up to 1 day in the past} other{Can start up to {n} days in the past}}",
+  "@leaveHintMaxPast": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "leaveHintMaxConsecutive": "Max {n} working days per request",
+  "@leaveHintMaxConsecutive": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "leaveHintHalfDay": "Half days allowed",
+  "leaveHintReasonRequired": "Reason required",
+  "leaveDurationCountedOnSubmit": "Counted when submitted",
+  "leaveDurationWithHalf": "{days} · {half}",
+  "@leaveDurationWithHalf": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      },
+      "half": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveBalanceDaysUsedYear": "days used this year",
+  "leaveBalanceOfAvailable": "of {total} available",
+  "@leaveBalanceOfAvailable": {
+    "placeholders": {
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveBalancePending": "{n} pending",
+  "@leaveBalancePending": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveBalanceNoLimit": "No yearly limit",
+  "leaveBalanceUsedPending": "{used} used · {pending} pending",
+  "@leaveBalanceUsedPending": {
+    "placeholders": {
+      "used": {
+        "type": "String"
+      },
+      "pending": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveBalanceSemantics": "{type}: {headline} {caption}. {footer}.",
+  "@leaveBalanceSemantics": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      },
+      "headline": {
+        "type": "String"
+      },
+      "caption": {
+        "type": "String"
+      },
+      "footer": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveCardSemantics": "{type}, {dates}, {duration}, {status}",
+  "@leaveCardSemantics": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      },
+      "dates": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveCardSubtitle": "{type} · {duration}",
+  "@leaveCardSubtitle": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "leavePreviewIntro": "Choose a type and dates to see how many working days this uses.",
+  "leavePreviewCalculating": "Calculating...",
+  "leavePreviewSummary": "Summary",
+  "leavePreviewDaysOfLeave": "{days} of leave",
+  "@leavePreviewDaysOfLeave": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "leavePreviewNotCounted": "Weekends and public holidays are not counted.",
+  "leavePreviewMore": "+{n} more",
+  "@leavePreviewMore": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "leavePreviewUnlimited": "Not limited by a yearly balance.",
+  "leavePreviewNotEnough": "Not enough balance: {available} available, this needs {needed}.",
+  "@leavePreviewNotEnough": {
+    "placeholders": {
+      "available": {
+        "type": "String"
+      },
+      "needed": {
+        "type": "String"
+      }
+    }
+  },
+  "leavePreviewLeftAfter": "{after} left after this request ({available} available now).",
+  "@leavePreviewLeftAfter": {
+    "placeholders": {
+      "after": {
+        "type": "String"
+      },
+      "available": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveRequestButton": "Request leave",
+  "leaveEmptyTitle": "No leave requests yet",
+  "leaveEmptyMessage": "Plan time off: pick a type and dates, and see your balance before you submit.",
+  "leaveEmptyFiltered": "{status, select, draft{No draft requests} pending{No pending requests} approved{No approved requests} rejected{No rejected requests} cancelled{No cancelled requests} other{No requests}}",
+  "@leaveEmptyFiltered": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveFilterAll": "All",
+  "leaveFilterPending": "Pending",
+  "leaveFilterApproved": "Approved",
+  "leaveFilterDrafts": "Drafts",
+  "leaveFilterRejected": "Rejected",
+  "leaveFilterCancelled": "Cancelled",
+  "leaveFilterSemantics": "Filter: {label}",
+  "@leaveFilterSemantics": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveDetailTitle": "Leave request",
+  "leaveConfirmDiscardTitle": "Discard this draft?",
+  "leaveConfirmCancelTitle": "Cancel this leave?",
+  "leaveConfirmCancelApprovedMessage": "Your approved leave will be cancelled and the days returned to your balance.",
+  "leaveConfirmWithdrawMessage": "The request will be withdrawn. You can submit a new one later.",
+  "leaveConfirmDiscard": "Discard",
+  "leaveConfirmCancelLeave": "Cancel leave",
+  "leaveKeepIt": "Keep it",
+  "leaveDraftDiscarded": "Draft discarded",
+  "leaveCancelledSnack": "Leave cancelled",
+  "leaveUnpaid": "Unpaid",
+  "leaveDetailDates": "Dates",
+  "leaveDetailDuration": "Duration",
+  "leaveDetailType": "Type",
+  "leaveDetailWorkingDays": "Working days",
+  "leaveDetailReason": "Reason",
+  "leaveDetailRejectionReason": "Rejection reason",
+  "leaveDetailStatus": "Status",
+  "leaveSubmitRequest": "Submit request",
+  "leaveSubmittedSnack": "Leave request submitted",
+  "leaveEditDraft": "Edit draft",
+  "leaveDiscardDraft": "Discard draft",
+  "leaveCancelApproved": "Cancel approved leave",
+  "leaveCancelRequest": "Cancel request",
+  "leaveStepCreated": "Created",
+  "leaveStepSubmitted": "Submitted for approval",
+  "leaveStepDraft": "Draft, not submitted yet",
+  "leaveStepWaiting": "Waiting for your manager",
+  "leaveStepApproved": "Approved",
+  "leaveStepApprovedBy": "Approved by {name}",
+  "@leaveStepApprovedBy": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveStepRejected": "Rejected",
+  "leaveStepRejectedBy": "Rejected by {name}",
+  "@leaveStepRejectedBy": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveStepCancelled": "Cancelled",
+  "leaveFormTitle": "Request leave",
+  "leaveFormEditTitle": "Edit leave draft",
+  "leaveFormType": "Leave type",
+  "leaveFormTypeLoading": "Loading leave types...",
+  "leaveFormTypeHint": "Choose a type",
+  "leaveTypeNotAvailable": "Not available for you yet",
+  "leaveTypeUnpaidNoLimit": "Unpaid · no yearly limit",
+  "leaveTypeAvailableOf": "{available} available of {total}",
+  "@leaveTypeAvailableOf": {
+    "placeholders": {
+      "available": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveFormFirstDayHelp": "First day of leave",
+  "leaveFormLastDayHelp": "Last day of leave",
+  "leaveValChooseType": "Choose a leave type.",
+  "leaveValChooseFirstDay": "Choose the first day.",
+  "leaveValChooseLastDay": "Choose the last day.",
+  "leaveValReasonRequired": "A reason is required for {type}.",
+  "@leaveValReasonRequired": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveDraftSaved": "Draft saved",
+  "leaveSaveDraft": "Save draft",
+  "leaveSaveAsDraft": "Save as draft",
+  "leaveSubmit": "Submit",
+  "leaveFormFrom": "From",
+  "leaveFormTo": "To",
+  "leaveFormFirstDay": "First day",
+  "leaveFormLastDay": "Last day",
+  "leaveFormLength": "Length",
+  "leaveFormFullDay": "Full day",
+  "leaveFormMorning": "Morning",
+  "leaveFormAfternoon": "Afternoon",
+  "leaveFormReasonRequired": "Reason (required)",
+  "leaveFormReasonOptional": "Reason (optional)",
+  "leaveFormReasonHint": "e.g. Family event in Medan",
+  "notifTitle": "Notifications",
+  "notifMarkAllRead": "Mark all read",
+  "notifMarkAllFailed": "Could not mark notifications as read. Nothing was changed.",
+  "notifEmptyTitle": "You''re all caught up",
+  "notifEmptyMessage": "Updates about your leave, corrections and overtime appear here.",
+  "notifSemantics": "{title}. {body}. {age}",
+  "@notifSemantics": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "body": {
+        "type": "String"
+      },
+      "age": {
+        "type": "String"
+      }
+    }
+  },
+  "notifSemanticsUnread": "Unread. {title}. {body}. {age}",
+  "@notifSemanticsUnread": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "body": {
+        "type": "String"
+      },
+      "age": {
+        "type": "String"
+      }
+    }
+  },
+  "notifTypeLeavePendingReview": "Leave request to review",
+  "notifTypeLeaveApproved": "Leave approved",
+  "notifTypeLeaveRejected": "Leave rejected",
+  "notifTypeCorrectionApproved": "Attendance correction approved",
+  "notifTypeCorrectionRejected": "Attendance correction rejected",
+  "notifTypeOvertimeApproved": "Overtime approved",
+  "notifTypeOvertimeRejected": "Overtime rejected",
+  "notifTypePayslipAvailable": "Payslip available",
+  "notifTypeDocumentExpiring": "Document expiring",
+  "notifTypeDocumentExpired": "Document expired",
+  "payslipTitle": "Payslips",
+  "payslipDetailTitle": "Payslip",
+  "payslipSelectPrompt": "Select a payslip",
+  "payslipYearAll": "All",
+  "payslipYearAllSemantics": "All years",
+  "payslipYearSemantics": "Year {year}",
+  "@payslipYearSemantics": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      }
+    }
+  },
+  "payslipEmptyTitle": "No payslips yet",
+  "payslipEmptyMessage": "Your payslips appear here once payroll for a period is released.",
+  "payslipStatusPaid": "Paid",
+  "payslipStatusReleased": "Released",
+  "payslipCardSemanticsPaid": "{period}, net pay {amount}, paid",
+  "@payslipCardSemanticsPaid": {
+    "placeholders": {
+      "period": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "payslipCardSemanticsReleased": "{period}, net pay {amount}, released",
+  "@payslipCardSemanticsReleased": {
+    "placeholders": {
+      "period": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "payslipCaption": "PAYSLIP",
+  "payslipPeriodRange": "Period {start} - {end}",
+  "@payslipPeriodRange": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "payslipPeriodRangePaid": "Period {start} - {end} · Paid {payDate}",
+  "@payslipPeriodRangePaid": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      },
+      "payDate": {
+        "type": "String"
+      }
+    }
+  },
+  "payslipInputsPresent": "{present} of {working} days present",
+  "@payslipInputsPresent": {
+    "placeholders": {
+      "present": {
+        "type": "String"
+      },
+      "working": {
+        "type": "String"
+      }
+    }
+  },
+  "payslipInputsOvertime": "Overtime {duration}",
+  "@payslipInputsOvertime": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "payslipInputsUnpaidLeave": "{days} unpaid leave days",
+  "@payslipInputsUnpaidLeave": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "payslipEarnings": "Earnings",
+  "payslipDeductions": "Deductions",
+  "payslipGrossPay": "Gross pay",
+  "payslipTotalDeductions": "Total deductions",
+  "payslipNoDeductions": "No deductions this period.",
+  "payslipNetPay": "Net pay",
+  "payslipNetPaySemantics": "Net pay {amount}",
+  "@payslipNetPaySemantics": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "payslipAdjustment": "Adjustment: {reason}",
+  "@payslipAdjustment": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "payslipDownloadPdf": "Download PDF",
+  "requestsTitle": "Requests",
+  "requestsTabLeave": "Leave",
+  "requestsTabCorrections": "Corrections",
+  "requestsTabOvertime": "Overtime",
+  "requestsSelectPrompt": "Select a request",
+  "requestsStatusPending": "Pending",
+  "requestsStatusApproved": "Approved",
+  "requestsStatusRejected": "Rejected",
+  "requestsStatusCancelled": "Cancelled",
+  "requestsNewCorrection": "Request correction",
+  "requestsCorrectionsEmptyTitle": "No correction requests",
+  "requestsCorrectionsEmptyMessage": "Forgot to check out or in? Request a correction and your manager will review it.",
+  "requestsCorrectionIn": "In {time}",
+  "@requestsCorrectionIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "requestsCorrectionOut": "Out {time}",
+  "@requestsCorrectionOut": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "requestsNewOvertime": "Request overtime",
+  "requestsOvertimeEmptyTitle": "No overtime requests",
+  "requestsOvertimeEmptyMessage": "Planning to work extra hours? Submit a request first.",
+  "requestsDetailWorkDate": "Work date",
+  "requestsDetailCheckIn": "Check in",
+  "requestsDetailCheckOut": "Check out",
+  "requestsDetailSubmitted": "Submitted",
+  "requestsDetailTime": "Time",
+  "requestsDetailRequested": "Requested",
+  "requestsDetailApproved": "Approved",
+  "requestsCorrectionDetailTitle": "Correction request",
+  "requestsOvertimeDetailTitle": "Overtime request",
+  "requestsCorrectionCancelTitle": "Cancel this request?",
+  "requestsOvertimeCancelTitle": "Cancel this overtime request?",
+  "requestsCancelMessage": "This cannot be undone. You can submit a new request later.",
+  "requestsCancelRequest": "Cancel request",
+  "requestsKeepIt": "Keep it",
+  "requestsCancelledSnack": "Request cancelled",
+  "requestsReason": "Reason",
+  "requestsReviewerNote": "Reviewer note",
+  "requestsErrCorrectionAlreadyPending": "There is already a pending correction for this date.",
+  "requestsErrCorrectionWindowExpired": "Corrections can only be requested for the last 30 days.",
+  "requestsErrInvalidWorkDate": "That work date is not valid.",
+  "requestsErrCheckInRequired": "A check-in time is required for this request.",
+  "requestsErrOvertimeTooLong": "That overtime is longer than the allowed limit.",
+  "requestsErrOvertimeOverlap": "This overlaps another overtime request.",
+  "requestsErrNotPending": "This request is no longer pending, so it cannot be changed.",
+  "requestsErrInvalidEventTime": "The times you entered are not possible.",
+  "requestsCorrectionDateHelp": "Work date (last 30 days)",
+  "requestsValChooseWorkDate": "Choose the work date.",
+  "requestsValTimes": "Add a check-in time, a check-out time, or both.",
+  "requestsValReasonWhatHappened": "Explain what happened (at least 5 characters).",
+  "requestsCorrectionSubmitted": "Correction request submitted",
+  "requestsSubmitRequest": "Submit request",
+  "requestsCorrectionIntro": "Forgot to check in or out? Tell us what the times should be. Your manager reviews the request before your record changes.",
+  "requestsChooseDate": "Choose a date",
+  "requestsCheckInTime": "Check-in time",
+  "requestsCheckOutTime": "Check-out time",
+  "requestsOptional": "Optional",
+  "requestsCorrectionReasonHint": "e.g. I forgot to check out after the meeting",
+  "requestsOvertimeDateHelp": "Overtime date",
+  "requestsValChooseDate": "Choose the date.",
+  "requestsValChooseStart": "Choose the start time.",
+  "requestsValChooseEnd": "Choose the end time.",
+  "requestsValEndAfterStart": "The end time must be after the start time.",
+  "requestsValReasonWhy": "Explain why (at least 5 characters).",
+  "requestsOvertimeSubmitted": "Overtime request submitted",
+  "requestsOvertimeIntro": "Request approval before you work extra hours. Approved overtime is recorded for your manager and HR.",
+  "requestsDate": "Date",
+  "requestsStartTime": "Start time",
+  "requestsEndTime": "End time",
+  "requestsStart": "Start",
+  "requestsEnd": "End",
+  "requestsOvertimeReasonHint": "What will you work on?",
+  "requestsTimeRange": "{start} - {end}",
+  "@requestsTimeRange": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "requestsOvertimeSubtitle": "{start} - {end} · {duration}",
+  "@requestsOvertimeSubtitle": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "syncSyncing": "Syncing...",
+  "syncFailedCount": "{count} sync failed",
+  "@syncFailedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "syncPendingCount": "{count} pending sync",
+  "@syncPendingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "syncAllSynced": "All synced",
+  "syncTitle": "Sync status",
+  "syncNow": "Sync now",
+  "syncEverythingSynced": "Everything is synced",
+  "syncEverythingSyncedMsg": "Attendance you record while offline appears here until it reaches the server.",
+  "syncOnline": "Online",
+  "syncOffline": "Offline",
+  "syncPendingFailedSummary": "{pending} pending · {failed} failed",
+  "@syncPendingFailedSummary": {
+    "placeholders": {
+      "pending": {
+        "type": "int"
+      },
+      "failed": {
+        "type": "int"
+      }
+    }
+  },
+  "syncStateSaved": "Saved",
+  "syncStateSynced": "Synced",
+  "syncAttempts": "{count, plural, =1{1 attempt} other{{count} attempts}}",
+  "@syncAttempts": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "syncDiscard": "Discard",
+  "syncDiscardTitle": "Discard this action?",
+  "syncDiscardMessage": "It will not be sent to the server. Use a correction request if your attendance needs fixing."
+}

@@ -1,0 +1,45 @@
+{
+  "notifTitle": "Notifications",
+  "notifMarkAllRead": "Mark all read",
+  "notifMarkAllFailed": "Could not mark notifications as read. Nothing was changed.",
+  "notifEmptyTitle": "You''re all caught up",
+  "notifEmptyMessage": "Updates about your leave, corrections and overtime appear here.",
+  "notifSemantics": "{title}. {body}. {age}",
+  "@notifSemantics": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "body": {
+        "type": "String"
+      },
+      "age": {
+        "type": "String"
+      }
+    }
+  },
+  "notifSemanticsUnread": "Unread. {title}. {body}. {age}",
+  "@notifSemanticsUnread": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "body": {
+        "type": "String"
+      },
+      "age": {
+        "type": "String"
+      }
+    }
+  },
+  "notifTypeLeavePendingReview": "Leave request to review",
+  "notifTypeLeaveApproved": "Leave approved",
+  "notifTypeLeaveRejected": "Leave rejected",
+  "notifTypeCorrectionApproved": "Attendance correction approved",
+  "notifTypeCorrectionRejected": "Attendance correction rejected",
+  "notifTypeOvertimeApproved": "Overtime approved",
+  "notifTypeOvertimeRejected": "Overtime rejected",
+  "notifTypePayslipAvailable": "Payslip available",
+  "notifTypeDocumentExpiring": "Document expiring",
+  "notifTypeDocumentExpired": "Document expired"
+}

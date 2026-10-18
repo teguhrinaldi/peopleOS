@@ -1,0 +1,88 @@
+{
+  "appName": "PeopleOS",
+  "languageTitle": "Language",
+  "languageEnglish": "English",
+  "languageIndonesian": "Bahasa Indonesia",
+  "languageSystem": "Device default",
+  "languageSavedLocalOnly": "Language changed on this device, but it could not be saved to your account.",
+  "staleBanner": "Showing saved data from {age}. Reconnect and pull to refresh.",
+  "@staleBanner": {
+    "placeholders": {
+      "age": {
+        "type": "String"
+      }
+    }
+  },
+  "ageJustNow": "just now",
+  "ageMinutes": "{count, plural, =1{1 minute ago} other{{count} minutes ago}}",
+  "@ageMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "ageHours": "{count, plural, =1{1 hour ago} other{{count} hours ago}}",
+  "@ageHours": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "ageDays": "{count, plural, =1{1 day ago} other{{count} days ago}}",
+  "@ageDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "durationHm": "{h}h {m}m",
+  "@durationHm": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      },
+      "m": {
+        "type": "int"
+      }
+    }
+  },
+  "durationH": "{h}h",
+  "@durationH": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      }
+    }
+  },
+  "durationM": "{m}m",
+  "@durationM": {
+    "placeholders": {
+      "m": {
+        "type": "int"
+      }
+    }
+  },
+  "greetingMorning": "Good morning",
+  "greetingAfternoon": "Good afternoon",
+  "greetingEvening": "Good evening",
+  "greetingNight": "Good night",
+  "daysOne": "{n} day",
+  "@daysOne": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "daysMany": "{n} days",
+  "@daysMany": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  }
+}

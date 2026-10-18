@@ -1,0 +1,110 @@
+{
+  "attendanceLate": "Late {duration}",
+  "@attendanceLate": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "attendanceLateEstimate": "Late {duration} (estimate)",
+  "@attendanceLateEstimate": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "attendanceOnTime": "On time",
+  "attendanceHistoryTitle": "Attendance History",
+  "attendanceRequestCorrection": "Request correction",
+  "attendancePreviousMonth": "Previous month",
+  "attendanceNextMonth": "Next month",
+  "attendanceSelectDay": "Select a day",
+  "attendanceEmptyTitle": "No attendance yet",
+  "attendanceEmptyMessage": "Nothing recorded for {month}.",
+  "@attendanceEmptyMessage": {
+    "placeholders": {
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "attendanceStatPresent": "Present",
+  "attendanceStatLate": "Late",
+  "attendanceStatHours": "Hours",
+  "attendanceStatSemantic": "{label}: {value}",
+  "@attendanceStatSemantic": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "attendanceRowSemanticLate": "{date}, {times}, {minutes, plural, =1{late 1 minute} other{late {minutes} minutes}}",
+  "@attendanceRowSemanticLate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "times": {
+        "type": "String"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "attendanceRowSemanticOnTime": "{date}, {times}, on time",
+  "@attendanceRowSemanticOnTime": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "times": {
+        "type": "String"
+      }
+    }
+  },
+  "attendanceBadgeWorking": "Working",
+  "attendanceBadgeCorrected": "Corrected",
+  "attendanceBadgeCorrection": "Correction",
+  "attendanceBadgeInReview": "In review",
+  "attendanceBadgeRejected": "Rejected",
+  "attendanceBadgePresent": "Present",
+  "attendanceSavedOnDevice": "Saved on this device",
+  "attendanceCouldNotSync": "Could not sync",
+  "attendanceSyncFailed": "Sync failed",
+  "attendancePendingSync": "Pending sync",
+  "attendanceCheckTypeIn": "Check in",
+  "attendanceCheckTypeOut": "Check out",
+  "attendanceLeftEarly": "Left {duration} early",
+  "@attendanceLeftEarly": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "attendanceKvCheckIn": "Check in",
+  "attendanceKvCheckOut": "Check out",
+  "attendanceKvWorked": "Worked",
+  "attendanceKvShift": "Shift",
+  "attendanceKvLocation": "Location",
+  "attendanceCheckInDetails": "Check-in details",
+  "attendanceCheckOutDetails": "Check-out details",
+  "attendanceReviewNote": "Review note",
+  "attendanceInsideGeofence": "Inside geofence",
+  "attendanceOutsideGeofence": "Outside geofence",
+  "attendanceRecordedOffline": "Recorded offline",
+  "attendanceSelfieUnavailable": "Selfie unavailable",
+  "attendanceSelfieSemantic": "Attendance selfie",
+  "attendanceErrNoConnection": "No internet connection.",
+  "attendanceErrTimeout": "The server took too long to respond.",
+  "attendanceErrServer": "Something went wrong on the server. Please try again.",
+  "attendanceErrRateLimited": "Too many requests. Please wait a moment.",
+  "attendanceErrSession": "Your session expired. Sign in again to send this action."
+}

@@ -1,0 +1,19 @@
+{
+  "notifTitle": "Notifikasi",
+  "notifMarkAllRead": "Tandai semua dibaca",
+  "notifMarkAllFailed": "Tidak dapat menandai notifikasi sebagai dibaca. Tidak ada yang diubah.",
+  "notifEmptyTitle": "Semua sudah terbaca",
+  "notifEmptyMessage": "Pembaruan tentang cuti, koreksi, dan lembur Anda akan muncul di sini.",
+  "notifSemantics": "{title}. {body}. {age}",
+  "notifSemanticsUnread": "Belum dibaca. {title}. {body}. {age}",
+  "notifTypeLeavePendingReview": "Pengajuan cuti perlu ditinjau",
+  "notifTypeLeaveApproved": "Cuti disetujui",
+  "notifTypeLeaveRejected": "Cuti ditolak",
+  "notifTypeCorrectionApproved": "Koreksi kehadiran disetujui",
+  "notifTypeCorrectionRejected": "Koreksi kehadiran ditolak",
+  "notifTypeOvertimeApproved": "Lembur disetujui",
+  "notifTypeOvertimeRejected": "Lembur ditolak",
+  "notifTypePayslipAvailable": "Slip gaji tersedia",
+  "notifTypeDocumentExpiring": "Dokumen segera berakhir",
+  "notifTypeDocumentExpired": "Dokumen kedaluwarsa"
+}

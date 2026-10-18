@@ -1,0 +1,165 @@
+{
+  "homeAttendance": "Attendance",
+  "homeQuickLeave": "Leave",
+  "homeQuickPayslip": "Payslip",
+  "homeQuickAttendance": "Attendance",
+  "homeQuickRequests": "Requests",
+  "homeQuickDocuments": "Documents",
+  "homeQuickMore": "More",
+  "homeLoadingToday": "Loading today",
+  "homeSavedWaitingSync": "Saved on this device. Waiting to sync.",
+  "homeFailedActions": "{count, plural, =1{1 attendance action could not sync. Review} other{{count} attendance actions could not sync. Review}}",
+  "@homeFailedActions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeStaleSchedule": "Showing your last known schedule while offline.",
+  "homeShiftStarts": "Shift starts {time}",
+  "@homeShiftStarts": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "homeNotCheckedIn": "Not checked in",
+  "homeReadyWhenYouAre": "Ready when you are.",
+  "homeCheckedInTitle": "You''re Checked In",
+  "homeBadgeWorking": "WORKING",
+  "homeCheckedOutTitle": "Checked out",
+  "homeCheckedOutWorked": "{inTime} - {outTime} · {duration} on the clock",
+  "@homeCheckedOutWorked": {
+    "placeholders": {
+      "inTime": {
+        "type": "String"
+      },
+      "outTime": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "homeWaitingReview": "Waiting for review",
+  "homeWaitingReviewMsg": "Your attendance for today needs a manager review before it is final.",
+  "homeCorrectionPending": "Correction pending",
+  "homeCorrectionPendingMsg": "Your correction request is waiting for approval.",
+  "homeBadgePending": "Pending",
+  "homeRejectedTitle": "Attendance rejected",
+  "homeRejectedMsg": "Your last correction was rejected. Contact your manager.",
+  "homeBadgeRejected": "Rejected",
+  "homeNotWorkingDay": "Not a working day",
+  "homeDayOffMsg": "Enjoy your day off. Check-in is not needed today.",
+  "homeBadgeDayOff": "Day off",
+  "homeOnLeaveTitle": "On leave today",
+  "homeOnLeaveMsg": "Enjoy your time off. Check-in is not needed while your leave is approved.",
+  "homeBadgeOnLeave": "On leave",
+  "homeNoScheduleTitle": "No schedule for today",
+  "homeNoScheduleMsg": "No shift is assigned to you yet. Ask HR or your manager to assign one.",
+  "homeBadgeNoShift": "No shift",
+  "homeBlockedTitle": "Attendance unavailable",
+  "homeBlockedTerminatedMsg": "Your employment has ended, so check-in is disabled. Your history stays available.",
+  "homeBlockedInactiveMsg": "Your employee profile is not active yet. Contact HR.",
+  "homeBadgeTerminated": "Terminated",
+  "homeBadgeInactive": "Inactive",
+  "homeSinceTime": "Since {time}",
+  "@homeSinceTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "homeTimeWorkedSemantic": "Time worked {duration}",
+  "@homeTimeWorkedSemantic": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCheckIn": "Check In",
+  "homeCheckOut": "Check Out",
+  "homeViewRequests": "View requests",
+  "homeDepartment": "{name} Department",
+  "@homeDepartment": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeNotifications": "Notifications",
+  "homeUnreadCount": "{count} unread",
+  "@homeUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeRecentActivity": "Recent activity",
+  "homeViewAll": "View all",
+  "homeActivityUnavailable": "Activity is unavailable right now.",
+  "homeNoAttendanceThisMonth": "No attendance recorded yet this month.",
+  "homeNoUpcomingLeave": "No upcoming leave",
+  "homeNextLeave": "Next leave",
+  "homePlanTimeOff": "Plan time off from Requests",
+  "homePendingCount": "{count} pending",
+  "@homePendingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeSummarySemantic": "{title}. {subtitle}. {count, plural, =1{1 pending request} other{{count} pending requests}}.",
+  "@homeSummarySemantic": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "subtitle": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeUpdates": "Updates",
+  "homePayslipAvailable": "Payslip available",
+  "homeDocsNeedAttention": "{count, plural, =1{1 document needs attention} other{{count} documents need attention}}",
+  "@homeDocsNeedAttention": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeExpiringSoon": "{count} expiring soon",
+  "@homeExpiringSoon": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeExpired": "{count} expired",
+  "@homeExpired": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeTodaysShift": "Today''s Shift",
+  "homeNotStarted": "Not started",
+  "homeOnSchedule": "On Schedule",
+  "homeNoShiftAssigned": "No shift assigned",
+  "homeRestDay": "Rest day"
+}

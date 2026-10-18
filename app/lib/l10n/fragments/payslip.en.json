@@ -1,0 +1,117 @@
+{
+  "payslipTitle": "Payslips",
+  "payslipDetailTitle": "Payslip",
+  "payslipSelectPrompt": "Select a payslip",
+  "payslipYearAll": "All",
+  "payslipYearAllSemantics": "All years",
+  "payslipYearSemantics": "Year {year}",
+  "@payslipYearSemantics": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      }
+    }
+  },
+  "payslipEmptyTitle": "No payslips yet",
+  "payslipEmptyMessage": "Your payslips appear here once payroll for a period is released.",
+  "payslipStatusPaid": "Paid",
+  "payslipStatusReleased": "Released",
+  "payslipCardSemanticsPaid": "{period}, net pay {amount}, paid",
+  "@payslipCardSemanticsPaid": {
+    "placeholders": {
+      "period": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "payslipCardSemanticsReleased": "{period}, net pay {amount}, released",
+  "@payslipCardSemanticsReleased": {
+    "placeholders": {
+      "period": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "payslipCaption": "PAYSLIP",
+  "payslipPeriodRange": "Period {start} - {end}",
+  "@payslipPeriodRange": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "payslipPeriodRangePaid": "Period {start} - {end} · Paid {payDate}",
+  "@payslipPeriodRangePaid": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      },
+      "payDate": {
+        "type": "String"
+      }
+    }
+  },
+  "payslipInputsPresent": "{present} of {working} days present",
+  "@payslipInputsPresent": {
+    "placeholders": {
+      "present": {
+        "type": "String"
+      },
+      "working": {
+        "type": "String"
+      }
+    }
+  },
+  "payslipInputsOvertime": "Overtime {duration}",
+  "@payslipInputsOvertime": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "payslipInputsUnpaidLeave": "{days} unpaid leave days",
+  "@payslipInputsUnpaidLeave": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "payslipEarnings": "Earnings",
+  "payslipDeductions": "Deductions",
+  "payslipGrossPay": "Gross pay",
+  "payslipTotalDeductions": "Total deductions",
+  "payslipNoDeductions": "No deductions this period.",
+  "payslipNetPay": "Net pay",
+  "payslipNetPaySemantics": "Net pay {amount}",
+  "@payslipNetPaySemantics": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "payslipAdjustment": "Adjustment: {reason}",
+  "@payslipAdjustment": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "payslipDownloadPdf": "Download PDF"
+}

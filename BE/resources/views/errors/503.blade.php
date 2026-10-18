@@ -1,0 +1,1 @@
+@include('errors.minimal', ['code' => '503', 'icon' => 'settings', 'heading' => 'We will be right back', 'message' => 'PeopleOS is being updated. Please try again in a few minutes.', 'tone' => 'bg-primary-soft text-primary-ink'])

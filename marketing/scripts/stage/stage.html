@@ -1,0 +1,68 @@
+<!doctype html><html><head><meta charset="utf-8"><title>PeopleOS stage</title>
+<link rel="stylesheet" href="brand.css">
+<style>
+html,body{width:1920px;height:1080px;overflow:hidden;background:#0F172A}
+#bg{position:absolute;inset:0;background:radial-gradient(1200px 800px at 15% 10%,#1e3a8a 0%,transparent 60%),radial-gradient(1000px 700px at 95% 100%,#0c4a6e 0%,transparent 55%),#0b1226}
+#phone{position:absolute;width:432px;height:886px;left:430px;top:97px;background:#0a0f1f;border-radius:58px;padding:21px;box-shadow:0 0 0 2px #334155,0 40px 90px rgba(0,0,0,.55);display:none}
+#phone iframe{width:390px;height:844px;border:0;border-radius:38px;background:#F5F8FD;display:block}
+#phone:after{content:'';position:absolute;left:50%;top:9px;width:92px;height:7px;border-radius:5px;background:#1e293b;transform:translateX(-50%)}
+#adm{position:absolute;left:40px;top:28px;width:1840px;height:944px;border-radius:16px;overflow:hidden;background:#fff;box-shadow:0 0 0 1px #334155,0 30px 80px rgba(0,0,0,.5);display:none}
+#adm .bar{height:44px;background:#E2E8F0;display:flex;align-items:center;gap:8px;padding:0 16px;font-size:14px;color:#475569;font-weight:600}
+#adm .bar i{width:12px;height:12px;border-radius:50%;background:#CBD5E1;display:block}
+#adm .bar span{margin-left:14px;background:#fff;border-radius:8px;padding:5px 16px;flex:0 0 520px;font-weight:500}
+#adm iframe{width:1840px;height:900px;border:0;display:block}
+#cap{position:absolute;opacity:0;transition:opacity .5s,transform .5s;transform:translateY(12px)}
+#cap.on{opacity:1;transform:none}
+body.phone #cap{left:1000px;top:380px;width:820px;color:#fff}
+body.phone #cap .k{display:inline-block;font-size:20px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#38BDF8;margin-bottom:20px}
+body.phone #cap .h{font-size:60px;line-height:1.08;font-weight:800;letter-spacing:-.025em}
+body.phone #cap .s{font-size:28px;line-height:1.4;color:#CBD5E1;margin-top:22px;font-weight:500}
+body.admin #cap{left:40px;right:40px;top:984px;height:76px;display:flex;align-items:center;gap:22px;color:#fff;background:rgba(15,23,42,.92);border:1px solid #334155;border-radius:18px;padding:0 28px}
+body.admin #cap .k{font-size:17px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#38BDF8;white-space:nowrap}
+body.admin #cap .h{font-size:30px;font-weight:700;letter-spacing:-.01em;white-space:nowrap}
+body.admin #cap .s{font-size:22px;color:#94A3B8;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+body.phone #phone,body.admin #adm{display:block}
+#fx{position:absolute;inset:0;pointer-events:none}
+.tap{position:absolute;width:56px;height:56px;margin:-28px 0 0 -28px;border-radius:50%;background:rgba(37,99,235,.35);border:3px solid #2563EB;animation:tap .7s ease-out forwards}
+@keyframes tap{0%{transform:scale(.4);opacity:1}100%{transform:scale(1.5);opacity:0}}
+#cur{position:absolute;left:0;top:0;width:30px;height:30px;transition:transform .55s cubic-bezier(.4,0,.2,1);display:none;filter:drop-shadow(0 3px 4px rgba(0,0,0,.45))}
+#fade{position:absolute;inset:0;background:#0b1226;opacity:1;transition:opacity .45s;pointer-events:none}
+#fade.out{opacity:0}
+#card{position:absolute;inset:0;display:none;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:#fff}
+#card.on{display:flex}
+#card .logo{font-size:96px;color:#fff}
+#card .t{font-size:84px;font-weight:800;letter-spacing:-.03em;margin-top:34px}
+#card .u{font-size:34px;color:#BFDBFE;margin-top:22px;font-weight:500}
+#card .chips{display:flex;gap:16px;margin-top:46px}
+#card .chips span{border:1px solid #475569;border-radius:999px;padding:10px 22px;font-size:24px;color:#E2E8F0;font-weight:600}
+#toast{position:absolute;right:48px;bottom:48px;background:#0F172A;color:#fff;border:1px solid #38BDF8;border-radius:14px;padding:16px 24px;font-size:24px;font-weight:600;opacity:0;transition:opacity .4s;max-width:760px}#toast.on{opacity:1}
+#pdf{position:absolute;left:1000px;top:56px;width:760px;height:900px;background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.6);display:none;opacity:0;transition:opacity .5s}#pdf.on{display:block;opacity:1}#pdf .pb{height:44px;background:#E2E8F0;font-size:16px;display:flex;align-items:center;padding:0 18px;color:#334155}#pdf canvas{width:760px;display:block}
+body.admin #pdf{left:560px;top:60px}
+body.admin #toast{bottom:auto;top:84px;right:64px}
+</style></head>
+<body class="phone"><div id="bg"></div>
+<div id="phone"><iframe id="pf" src="/"></iframe></div>
+<div id="adm"><div class="bar"><i></i><i></i><i></i><span>PeopleOS Web Admin</span></div><iframe id="af" src="about:blank"></iframe></div>
+<div id="cap"><div class="k"></div><div class="h"></div><div class="s"></div></div>
+<div id="card"></div>
+<div id="fx"><svg id="cur" viewBox="0 0 24 24"><path d="M3 2l7.5 19 2.6-8 8-2.6L3 2z" fill="#fff" stroke="#0F172A" stroke-width="1.6" stroke-linejoin="round"/></svg></div>
+<div id="toast"></div><div id="pdf"><div class="pb"><b></b></div><canvas></canvas></div>
+<div id="fade"></div>
+<script src="/__pdfjs/pdf.min.js"></script>
+<script>pdfjsLib.GlobalWorkerOptions.workerSrc="/__pdfjs/pdf.worker.min.js";</script>
+<script>
+const LOGO = '<svg viewBox="0 0 44 40" fill="none"><circle cx="9" cy="10" r="4.6" fill="#38BDF8"/><path d="M2 28c0-5.2 3.1-8.6 7-8.6s7 3.4 7 8.6v2H2v-2Z" fill="#38BDF8"/><circle cx="33" cy="9" r="4.4" fill="#60A5FA"/><path d="M26.5 27c0-5 3-8.2 6.7-8.2 3.7 0 6.8 3.2 6.8 8.2v2h-13.5v-2Z" fill="#60A5FA"/><circle cx="21" cy="14" r="5.6" fill="#2563EB"/><path d="M11.5 37c0-6.6 4.2-10.6 9.5-10.6s9.5 4 9.5 10.6v1.6h-19V37Z" fill="#2563EB"/></svg>';
+window.setMode = m => { document.body.className = m; };
+window.caption = (k,h,s) => { const c=document.getElementById('cap'); c.classList.remove('on'); setTimeout(()=>{ c.querySelector('.k').textContent=k||''; c.querySelector('.h').textContent=h||''; c.querySelector('.s').textContent=s||''; if(h||k) c.classList.add('on'); }, 350); };
+window.hideCaption = () => document.getElementById('cap').classList.remove('on');
+window.fadeOut = () => document.getElementById('fade').classList.remove('out');
+window.fadeIn = () => document.getElementById('fade').classList.add('out');
+window.showCard = (title, sub, chips) => { const c=document.getElementById('card'); c.innerHTML='<div class="logo">'+LOGO+'<b>PeopleOS</b></div><div class="t">'+title+'</div><div class="u">'+sub+'</div>'+(chips?'<div class="chips">'+chips.map(x=>'<span>'+x+'</span>').join('')+'</div>':''); c.classList.add('on'); };
+window.hideCard = () => document.getElementById('card').classList.remove('on');
+window.tapFx = (x,y) => { const d=document.createElement('div'); d.className='tap'; d.style.left=x+'px'; d.style.top=y+'px'; document.getElementById('fx').appendChild(d); setTimeout(()=>d.remove(),800); };
+window.moveCursor = (x,y) => { const c=document.getElementById('cur'); c.style.display='block'; c.style.transform='translate('+x+'px,'+y+'px)'; };
+window.toast = (t,ms=3200) => { const e=document.getElementById("toast"); e.textContent=t; e.classList.add("on"); setTimeout(()=>e.classList.remove("on"),ms); };
+window.showPdf = async (b64,name,frac=1) => { const p=document.getElementById("pdf"); p.querySelector("b").textContent=name; const bin = atob(b64); const data = new Uint8Array(bin.length); for (let i=0;i<bin.length;i++) data[i]=bin.charCodeAt(i); const pdf = await pdfjsLib.getDocument({data}).promise; const pg = await pdf.getPage(1); const vp0 = pg.getViewport({scale:1}); const sc = 1520/vp0.width; const vp = pg.getViewport({scale:sc}); const c=p.querySelector("canvas"); c.width=vp.width; c.height=vp.height; await pg.render({canvasContext:c.getContext("2d"), viewport:vp}).promise; p.classList.add("on"); p.style.height = Math.min(840, 44 + c.clientHeight * frac) + "px"; };
+window.hidePdf = () => document.getElementById("pdf").classList.remove("on");
+window.hideCursor = () => document.getElementById('cur').style.display='none';
+</script></body></html>

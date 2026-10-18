@@ -1,0 +1,1 @@
+@include('errors.minimal', ['code' => '500', 'icon' => 'triangle-alert', 'heading' => 'Something went wrong on our side', 'message' => 'The error has been logged. Please try again in a moment, and contact your administrator if it keeps happening.', 'tone' => 'bg-danger-soft text-danger-ink'])

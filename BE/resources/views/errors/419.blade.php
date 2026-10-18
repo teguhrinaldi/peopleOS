@@ -1,0 +1,1 @@
+@include('errors.minimal', ['code' => '419', 'icon' => 'hourglass', 'heading' => 'Your session expired', 'message' => 'For your security the form timed out. Reload the page and try again.', 'tone' => 'bg-warning-soft text-warning-ink'])
